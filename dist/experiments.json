@@ -27,6 +27,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 32,
+      "tradeLaborSamples": 32,
+      "meanTradeLaborRatio": 0.77,
       "breached": 0,
       "gossip": 787,
       "discoveries": 17,
@@ -50,7 +52,7 @@
         "organise": 4,
         "generate": 511
       },
-      "snapshotBytes": 772348
+      "snapshotBytes": 782164
     },
     {
       "case": "Mixed village",
@@ -66,6 +68,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 47,
+      "tradeLaborSamples": 47,
+      "meanTradeLaborRatio": 0.73,
       "breached": 0,
       "gossip": 807,
       "discoveries": 18,
@@ -89,7 +93,7 @@
         "negotiate": 333,
         "organise": 3
       },
-      "snapshotBytes": 670339
+      "snapshotBytes": 682517
     },
     {
       "case": "Mixed village",
@@ -105,6 +109,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 54,
+      "tradeLaborSamples": 54,
+      "meanTradeLaborRatio": 0.81,
       "breached": 1,
       "gossip": 845,
       "discoveries": 16,
@@ -129,7 +135,7 @@
         "organise": 7,
         "visit": 4
       },
-      "snapshotBytes": 760730
+      "snapshotBytes": 774029
     },
     {
       "case": "Mixed village",
@@ -145,6 +151,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 102,
+      "tradeLaborSamples": 102,
+      "meanTradeLaborRatio": 0.9,
       "breached": 0,
       "gossip": 701,
       "discoveries": 18,
@@ -168,7 +176,7 @@
         "generate": 534,
         "organise": 3
       },
-      "snapshotBytes": 665126
+      "snapshotBytes": 685882
     },
     {
       "case": "Mixed village",
@@ -184,6 +192,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 57,
+      "tradeLaborSamples": 57,
+      "meanTradeLaborRatio": 0.83,
       "breached": 0,
       "gossip": 503,
       "discoveries": 23,
@@ -207,7 +217,7 @@
         "visit": 129,
         "organise": 10
       },
-      "snapshotBytes": 520905
+      "snapshotBytes": 534635
     },
     {
       "case": "Mixed village",
@@ -223,6 +233,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 61,
+      "tradeLaborSamples": 61,
+      "meanTradeLaborRatio": 0.8,
       "breached": 0,
       "gossip": 555,
       "discoveries": 25,
@@ -246,7 +258,7 @@
         "generate": 517,
         "organise": 4
       },
-      "snapshotBytes": 554821
+      "snapshotBytes": 569204
     },
     {
       "case": "Mixed village",
@@ -262,6 +274,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 73,
+      "tradeLaborSamples": 73,
+      "meanTradeLaborRatio": 0.8,
       "breached": 0,
       "gossip": 623,
       "discoveries": 18,
@@ -285,7 +299,7 @@
         "visit": 39,
         "organise": 3
       },
-      "snapshotBytes": 600838
+      "snapshotBytes": 617052
     },
     {
       "case": "Mixed village",
@@ -301,6 +315,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 121,
+      "tradeLaborSamples": 121,
+      "meanTradeLaborRatio": 0.84,
       "breached": 1,
       "gossip": 672,
       "discoveries": 22,
@@ -324,7 +340,7 @@
         "generate": 503,
         "organise": 6
       },
-      "snapshotBytes": 613188
+      "snapshotBytes": 636934
     },
     {
       "case": "Food shortage",
@@ -340,6 +356,8 @@
       "loans": 1,
       "repaidLoans": 1,
       "trades": 6,
+      "tradeLaborSamples": 6,
+      "meanTradeLaborRatio": 0.72,
       "breached": 1,
       "gossip": 629,
       "discoveries": 14,
@@ -367,7 +385,7 @@
         "mediate": 44,
         "repay": 1
       },
-      "snapshotBytes": 588263
+      "snapshotBytes": 594016
     },
     {
       "case": "Food shortage",
@@ -383,6 +401,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 11,
+      "tradeLaborSamples": 11,
+      "meanTradeLaborRatio": 0.62,
       "breached": 0,
       "gossip": 661,
       "discoveries": 12,
@@ -409,7 +429,7 @@
         "steal": 48,
         "mediate": 29
       },
-      "snapshotBytes": 596472
+      "snapshotBytes": 603055
     },
     {
       "case": "Food shortage",
@@ -425,6 +445,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 6,
+      "tradeLaborSamples": 6,
+      "meanTradeLaborRatio": 0.55,
       "breached": 1,
       "gossip": 812,
       "discoveries": 16,
@@ -451,7 +473,7 @@
         "gift": 26,
         "steal": 43
       },
-      "snapshotBytes": 642439
+      "snapshotBytes": 648196
     },
     {
       "case": "Food shortage",
@@ -467,6 +489,8 @@
       "loans": 2,
       "repaidLoans": 2,
       "trades": 18,
+      "tradeLaborSamples": 18,
+      "meanTradeLaborRatio": 0.69,
       "breached": 0,
       "gossip": 691,
       "discoveries": 13,
@@ -494,7 +518,7 @@
         "steal": 38,
         "mediate": 17
       },
-      "snapshotBytes": 591559
+      "snapshotBytes": 599201
     },
     {
       "case": "Food shortage",
@@ -510,6 +534,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 9,
+      "tradeLaborSamples": 9,
+      "meanTradeLaborRatio": 0.6,
       "breached": 0,
       "gossip": 554,
       "discoveries": 18,
@@ -536,7 +562,7 @@
         "steal": 28,
         "mediate": 4
       },
-      "snapshotBytes": 537690
+      "snapshotBytes": 543870
     },
     {
       "case": "Food shortage",
@@ -552,6 +578,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 14,
+      "tradeLaborSamples": 14,
+      "meanTradeLaborRatio": 0.68,
       "breached": 0,
       "gossip": 606,
       "discoveries": 23,
@@ -578,7 +606,7 @@
         "steal": 9,
         "mediate": 4
       },
-      "snapshotBytes": 578552
+      "snapshotBytes": 585584
     },
     {
       "case": "Food shortage",
@@ -594,6 +622,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 11,
+      "tradeLaborSamples": 11,
+      "meanTradeLaborRatio": 0.57,
       "breached": 0,
       "gossip": 619,
       "discoveries": 17,
@@ -620,7 +650,7 @@
         "steal": 52,
         "mediate": 29
       },
-      "snapshotBytes": 577989
+      "snapshotBytes": 584560
     },
     {
       "case": "Food shortage",
@@ -633,9 +663,11 @@
       "relationships": 126,
       "repeatedPartners": 44,
       "fulfilled": 720,
-      "loans": 13,
+      "loans": 14,
       "repaidLoans": 12,
       "trades": 24,
+      "tradeLaborSamples": 24,
+      "meanTradeLaborRatio": 0.67,
       "breached": 6,
       "gossip": 597,
       "discoveries": 21,
@@ -663,7 +695,7 @@
         "mediate": 28,
         "steal": 61
       },
-      "snapshotBytes": 571408
+      "snapshotBytes": 579995
     },
     {
       "case": "Shortage without gossip",
@@ -679,6 +711,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 10,
+      "tradeLaborSamples": 10,
+      "meanTradeLaborRatio": 0.65,
       "breached": 0,
       "gossip": 0,
       "discoveries": 10,
@@ -705,7 +739,7 @@
         "steal": 56,
         "mediate": 25
       },
-      "snapshotBytes": 490105
+      "snapshotBytes": 496518
     },
     {
       "case": "Shortage without gossip",
@@ -721,6 +755,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 8,
+      "tradeLaborSamples": 8,
+      "meanTradeLaborRatio": 0.6,
       "breached": 0,
       "gossip": 0,
       "discoveries": 8,
@@ -747,7 +783,7 @@
         "steal": 51,
         "mediate": 31
       },
-      "snapshotBytes": 508929
+      "snapshotBytes": 514944
     },
     {
       "case": "Shortage without gossip",
@@ -763,6 +799,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 7,
+      "tradeLaborSamples": 7,
+      "meanTradeLaborRatio": 0.68,
       "breached": 1,
       "gossip": 0,
       "discoveries": 12,
@@ -789,7 +827,7 @@
         "steal": 35,
         "mediate": 22
       },
-      "snapshotBytes": 517296
+      "snapshotBytes": 523203
     },
     {
       "case": "Shortage without gossip",
@@ -805,6 +843,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 19,
+      "tradeLaborSamples": 19,
+      "meanTradeLaborRatio": 0.81,
       "breached": 0,
       "gossip": 0,
       "discoveries": 11,
@@ -831,7 +871,7 @@
         "mediate": 4,
         "gift": 5
       },
-      "snapshotBytes": 478885
+      "snapshotBytes": 486729
     },
     {
       "case": "Shortage without gossip",
@@ -847,6 +887,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 5,
+      "tradeLaborSamples": 5,
+      "meanTradeLaborRatio": 0.72,
       "breached": 0,
       "gossip": 0,
       "discoveries": 18,
@@ -873,7 +915,7 @@
         "steal": 51,
         "mediate": 16
       },
-      "snapshotBytes": 477380
+      "snapshotBytes": 482980
     },
     {
       "case": "Shortage without gossip",
@@ -889,6 +931,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 16,
+      "tradeLaborSamples": 16,
+      "meanTradeLaborRatio": 0.66,
       "breached": 0,
       "gossip": 0,
       "discoveries": 13,
@@ -915,7 +959,7 @@
         "steal": 9,
         "mediate": 6
       },
-      "snapshotBytes": 474596
+      "snapshotBytes": 481986
     },
     {
       "case": "Shortage without gossip",
@@ -928,9 +972,11 @@
       "relationships": 120,
       "repeatedPartners": 46,
       "fulfilled": 647,
-      "loans": 1,
+      "loans": 2,
       "repaidLoans": 2,
       "trades": 9,
+      "tradeLaborSamples": 9,
+      "meanTradeLaborRatio": 0.61,
       "breached": 2,
       "gossip": 0,
       "discoveries": 10,
@@ -958,7 +1004,7 @@
         "mediate": 14,
         "repay": 1
       },
-      "snapshotBytes": 495266
+      "snapshotBytes": 501475
     },
     {
       "case": "Shortage without gossip",
@@ -974,6 +1020,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 16,
+      "tradeLaborSamples": 16,
+      "meanTradeLaborRatio": 0.65,
       "breached": 0,
       "gossip": 0,
       "discoveries": 14,
@@ -1000,7 +1048,7 @@
         "steal": 64,
         "mediate": 42
       },
-      "snapshotBytes": 503803
+      "snapshotBytes": 511175
     },
     {
       "case": "Shortage without institutions",
@@ -1016,6 +1064,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 6,
+      "tradeLaborSamples": 6,
+      "meanTradeLaborRatio": 0.59,
       "breached": 0,
       "gossip": 621,
       "discoveries": 14,
@@ -1040,7 +1090,7 @@
         "gift": 33,
         "steal": 48
       },
-      "snapshotBytes": 564086
+      "snapshotBytes": 569846
     },
     {
       "case": "Shortage without institutions",
@@ -1056,6 +1106,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 12,
+      "tradeLaborSamples": 12,
+      "meanTradeLaborRatio": 0.62,
       "breached": 0,
       "gossip": 659,
       "discoveries": 14,
@@ -1080,7 +1132,7 @@
         "gift": 117,
         "steal": 25
       },
-      "snapshotBytes": 571733
+      "snapshotBytes": 578487
     },
     {
       "case": "Shortage without institutions",
@@ -1096,6 +1148,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 13,
+      "tradeLaborSamples": 13,
+      "meanTradeLaborRatio": 0.62,
       "breached": 1,
       "gossip": 814,
       "discoveries": 13,
@@ -1120,7 +1174,7 @@
         "steal": 27,
         "gift": 23
       },
-      "snapshotBytes": 657234
+      "snapshotBytes": 664132
     },
     {
       "case": "Shortage without institutions",
@@ -1136,6 +1190,8 @@
       "loans": 3,
       "repaidLoans": 3,
       "trades": 22,
+      "tradeLaborSamples": 22,
+      "meanTradeLaborRatio": 0.7,
       "breached": 2,
       "gossip": 707,
       "discoveries": 15,
@@ -1161,7 +1217,7 @@
         "repay": 3,
         "steal": 22
       },
-      "snapshotBytes": 588174
+      "snapshotBytes": 596414
     },
     {
       "case": "Shortage without institutions",
@@ -1177,6 +1233,8 @@
       "loans": 1,
       "repaidLoans": 1,
       "trades": 14,
+      "tradeLaborSamples": 14,
+      "meanTradeLaborRatio": 0.64,
       "breached": 0,
       "gossip": 523,
       "discoveries": 18,
@@ -1202,7 +1260,7 @@
         "gift": 39,
         "steal": 32
       },
-      "snapshotBytes": 528172
+      "snapshotBytes": 535212
     },
     {
       "case": "Shortage without institutions",
@@ -1218,6 +1276,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 15,
+      "tradeLaborSamples": 15,
+      "meanTradeLaborRatio": 0.69,
       "breached": 0,
       "gossip": 593,
       "discoveries": 26,
@@ -1242,7 +1302,7 @@
         "gift": 28,
         "steal": 5
       },
-      "snapshotBytes": 549803
+      "snapshotBytes": 557018
     },
     {
       "case": "Shortage without institutions",
@@ -1258,6 +1318,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 17,
+      "tradeLaborSamples": 17,
+      "meanTradeLaborRatio": 0.51,
       "breached": 0,
       "gossip": 659,
       "discoveries": 16,
@@ -1282,7 +1344,7 @@
         "gift": 112,
         "steal": 17
       },
-      "snapshotBytes": 605343
+      "snapshotBytes": 612842
     },
     {
       "case": "Shortage without institutions",
@@ -1298,6 +1360,8 @@
       "loans": 3,
       "repaidLoans": 3,
       "trades": 23,
+      "tradeLaborSamples": 23,
+      "meanTradeLaborRatio": 0.68,
       "breached": 2,
       "gossip": 644,
       "discoveries": 20,
@@ -1323,7 +1387,7 @@
         "repay": 3,
         "steal": 20
       },
-      "snapshotBytes": 564148
+      "snapshotBytes": 572584
     },
     {
       "case": "Shortage, all OCEAN = 50",
@@ -1339,6 +1403,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 11,
+      "tradeLaborSamples": 11,
+      "meanTradeLaborRatio": 0.69,
       "breached": 0,
       "gossip": 576,
       "discoveries": 16,
@@ -1365,7 +1431,7 @@
         "mediate": 30,
         "gift": 3
       },
-      "snapshotBytes": 576738
+      "snapshotBytes": 583333
     },
     {
       "case": "Shortage, all OCEAN = 50",
@@ -1381,6 +1447,8 @@
       "loans": 2,
       "repaidLoans": 1,
       "trades": 15,
+      "tradeLaborSamples": 15,
+      "meanTradeLaborRatio": 0.69,
       "breached": 2,
       "gossip": 601,
       "discoveries": 25,
@@ -1408,7 +1476,7 @@
         "gift": 5,
         "repay": 1
       },
-      "snapshotBytes": 546547
+      "snapshotBytes": 553748
     },
     {
       "case": "Shortage, all OCEAN = 50",
@@ -1424,6 +1492,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 16,
+      "tradeLaborSamples": 16,
+      "meanTradeLaborRatio": 0.66,
       "breached": 1,
       "gossip": 611,
       "discoveries": 20,
@@ -1450,7 +1520,7 @@
         "steal": 93,
         "gift": 16
       },
-      "snapshotBytes": 549023
+      "snapshotBytes": 556385
     },
     {
       "case": "Shortage, all OCEAN = 50",
@@ -1466,6 +1536,8 @@
       "loans": 2,
       "repaidLoans": 2,
       "trades": 21,
+      "tradeLaborSamples": 21,
+      "meanTradeLaborRatio": 0.7,
       "breached": 1,
       "gossip": 598,
       "discoveries": 19,
@@ -1493,7 +1565,7 @@
         "mediate": 30,
         "repay": 2
       },
-      "snapshotBytes": 559209
+      "snapshotBytes": 567338
     },
     {
       "case": "Shortage, all OCEAN = 50",
@@ -1509,6 +1581,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 12,
+      "tradeLaborSamples": 12,
+      "meanTradeLaborRatio": 0.64,
       "breached": 0,
       "gossip": 615,
       "discoveries": 23,
@@ -1535,7 +1609,7 @@
         "organise": 2,
         "gift": 5
       },
-      "snapshotBytes": 557904
+      "snapshotBytes": 564613
     },
     {
       "case": "Shortage, all OCEAN = 50",
@@ -1551,6 +1625,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 16,
+      "tradeLaborSamples": 16,
+      "meanTradeLaborRatio": 0.73,
       "breached": 0,
       "gossip": 515,
       "discoveries": 23,
@@ -1577,7 +1653,7 @@
         "steal": 9,
         "mediate": 4
       },
-      "snapshotBytes": 518139
+      "snapshotBytes": 525524
     },
     {
       "case": "Shortage, all OCEAN = 50",
@@ -1593,6 +1669,8 @@
       "loans": 0,
       "repaidLoans": 0,
       "trades": 17,
+      "tradeLaborSamples": 17,
+      "meanTradeLaborRatio": 0.69,
       "breached": 0,
       "gossip": 685,
       "discoveries": 24,
@@ -1619,7 +1697,7 @@
         "mediate": 28,
         "gift": 11
       },
-      "snapshotBytes": 574053
+      "snapshotBytes": 581568
     },
     {
       "case": "Shortage, all OCEAN = 50",
@@ -1635,6 +1713,8 @@
       "loans": 1,
       "repaidLoans": 1,
       "trades": 8,
+      "tradeLaborSamples": 8,
+      "meanTradeLaborRatio": 0.73,
       "breached": 1,
       "gossip": 613,
       "discoveries": 22,
@@ -1662,8 +1742,8 @@
         "gift": 9,
         "repay": 1
       },
-      "snapshotBytes": 574832
+      "snapshotBytes": 580893
     }
   ],
-  "durationMs": 16982
+  "durationMs": 14141
 }

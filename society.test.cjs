@@ -34,3 +34,15 @@ test('shared workshop adds a member-only slot beside two common slots',()=>{
 test('thief cannot take from someone who has left the location',()=>{
  const w=new World({count:3}),[a,b]=w.s.agents;w.start(a,'steal',2,{partner:b.id});a.hub='garden';b.hub='pond';w.complete(a);assert.equal(a.inventory.food,5);assert.equal(b.inventory.food,5);assert.equal(w.s.stats.thefts,0);
 });
+test('accepted loan counts survive third-party mediation and exclude declined offers',()=>{
+ const w=new World({count:3}),[lender,borrower,mediator]=w.s.agents;
+ lender.traits.A=100;lender.traits.N=0;borrower.traits.A=borrower.traits.C=90;
+ const loan=w.lend(lender,borrower);assert.equal(loan.status,'active');
+ assert.equal(w.lend(lender,borrower).status,'declined');
+ assert.equal(w.metrics().loans,1);assert.equal(w.metrics().repaidLoans,0);
+ w.relation(lender,mediator);w.relation(borrower,mediator);loan.status='disputed';
+ assert(w.resolveDispute(loan));assert.equal(loan.consent.length,3);
+ assert.equal(w.metrics().loans,1);assert.equal(w.metrics().repaidLoans,1);
+ assert.equal(w.repay(loan),false);w.validate();
+ const restored=new World({},w.snapshot());assert.equal(restored.metrics().loans,1);
+});
