@@ -1,0 +1,1 @@
+const fs=require('fs');const {run}=require('./dist/society-experiments');const result=run({seeds:[11,42,73,104,135,166,197,228],count:12,minutes:1440},p=>{if(p.done%8===0)console.log(`${p.done}/${p.total} runs validated`)});fs.writeFileSync('dist/society-next-experiments.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result.summary,null,2));

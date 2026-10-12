@@ -1,0 +1,3739 @@
+{
+  "engineVersion": 2,
+  "seeds": [
+    11,
+    42,
+    73,
+    104,
+    135,
+    166,
+    197,
+    228
+  ],
+  "count": 12,
+  "minutes": 1440,
+  "durationMs": 43116,
+  "summary": [
+    {
+      "name": "Taste only",
+      "mean": {
+        "hatTrades": 2.875,
+        "inputTrades": 32.375,
+        "hunger": 18.737499999999997,
+        "foodGini": 0.3950000000000001,
+        "workshops": 1.625,
+        "suppliesCreated": 1.375,
+        "exits": 1,
+        "revelations": 0,
+        "advice": 0,
+        "conflicts": 16.375,
+        "pricePacts": 2.375,
+        "friendColorSimilarity": 0.54875,
+        "colorDiversity": 3.25
+      },
+      "range": {
+        "hatTrades": [
+          1,
+          5
+        ],
+        "inputTrades": [
+          27,
+          43
+        ],
+        "hunger": [
+          15.08,
+          23.5
+        ],
+        "foodGini": [
+          0.23,
+          0.52
+        ],
+        "workshops": [
+          1,
+          3
+        ],
+        "suppliesCreated": [
+          0,
+          3
+        ],
+        "exits": [
+          0,
+          2
+        ],
+        "revelations": [
+          0,
+          0
+        ],
+        "advice": [
+          0,
+          0
+        ],
+        "conflicts": [
+          4,
+          53
+        ],
+        "pricePacts": [
+          1,
+          3
+        ],
+        "friendColorSimilarity": [
+          0.15,
+          1
+        ],
+        "colorDiversity": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Social fashion",
+      "mean": {
+        "hatTrades": 5,
+        "inputTrades": 37.375,
+        "hunger": 21.90625,
+        "foodGini": 0.3837499999999999,
+        "workshops": 1.25,
+        "suppliesCreated": 2.375,
+        "exits": 1.625,
+        "revelations": 0,
+        "advice": 0,
+        "conflicts": 18.5,
+        "pricePacts": 3.25,
+        "friendColorSimilarity": 0.6242857142857143,
+        "colorDiversity": 3.25
+      },
+      "range": {
+        "hatTrades": [
+          3,
+          7
+        ],
+        "inputTrades": [
+          28,
+          46
+        ],
+        "hunger": [
+          14.33,
+          30.33
+        ],
+        "foodGini": [
+          0.3,
+          0.47
+        ],
+        "workshops": [
+          0,
+          2
+        ],
+        "suppliesCreated": [
+          1,
+          5
+        ],
+        "exits": [
+          0,
+          4
+        ],
+        "revelations": [
+          0,
+          0
+        ],
+        "advice": [
+          0,
+          0
+        ],
+        "conflicts": [
+          5,
+          43
+        ],
+        "pricePacts": [
+          2,
+          4
+        ],
+        "friendColorSimilarity": [
+          0.5,
+          1
+        ],
+        "colorDiversity": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "name": "No groups",
+      "mean": {
+        "hatTrades": 4.875,
+        "inputTrades": 39.125,
+        "hunger": 22.093749999999996,
+        "foodGini": 0.37,
+        "workshops": 0,
+        "suppliesCreated": 1.5,
+        "exits": 0,
+        "revelations": 0,
+        "advice": 0,
+        "conflicts": 18.5,
+        "pricePacts": 0,
+        "friendColorSimilarity": 0.46625000000000005,
+        "colorDiversity": 3.875
+      },
+      "range": {
+        "hatTrades": [
+          4,
+          6
+        ],
+        "inputTrades": [
+          34,
+          47
+        ],
+        "hunger": [
+          14.17,
+          29.08
+        ],
+        "foodGini": [
+          0.28,
+          0.43
+        ],
+        "workshops": [
+          0,
+          0
+        ],
+        "suppliesCreated": [
+          0,
+          4
+        ],
+        "exits": [
+          0,
+          0
+        ],
+        "revelations": [
+          0,
+          0
+        ],
+        "advice": [
+          0,
+          0
+        ],
+        "conflicts": [
+          4,
+          51
+        ],
+        "pricePacts": [
+          0,
+          0
+        ],
+        "friendColorSimilarity": [
+          0.16,
+          0.72
+        ],
+        "colorDiversity": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "name": "No price pacts",
+      "mean": {
+        "hatTrades": 4.625,
+        "inputTrades": 41.125,
+        "hunger": 21.29125,
+        "foodGini": 0.4,
+        "workshops": 1.75,
+        "suppliesCreated": 2.125,
+        "exits": 0.375,
+        "revelations": 0,
+        "advice": 0,
+        "conflicts": 17.5,
+        "pricePacts": 0,
+        "friendColorSimilarity": 0.61375,
+        "colorDiversity": 3.375
+      },
+      "range": {
+        "hatTrades": [
+          2,
+          5
+        ],
+        "inputTrades": [
+          29,
+          50
+        ],
+        "hunger": [
+          15.58,
+          25.5
+        ],
+        "foodGini": [
+          0.37,
+          0.46
+        ],
+        "workshops": [
+          0,
+          3
+        ],
+        "suppliesCreated": [
+          0,
+          4
+        ],
+        "exits": [
+          0,
+          2
+        ],
+        "revelations": [
+          0,
+          0
+        ],
+        "advice": [
+          0,
+          0
+        ],
+        "conflicts": [
+          5,
+          51
+        ],
+        "pricePacts": [
+          0,
+          0
+        ],
+        "friendColorSimilarity": [
+          0.23,
+          1
+        ],
+        "colorDiversity": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Hidden market insight",
+      "mean": {
+        "hatTrades": 4.125,
+        "inputTrades": 33.5,
+        "hunger": 20.21875,
+        "foodGini": 0.42125,
+        "workshops": 1.5,
+        "suppliesCreated": 1.375,
+        "exits": 0.875,
+        "revelations": 17.25,
+        "advice": 34.25,
+        "conflicts": 18.625,
+        "pricePacts": 3.125,
+        "friendColorSimilarity": 0.6857142857142857,
+        "colorDiversity": 3.5
+      },
+      "range": {
+        "hatTrades": [
+          1,
+          7
+        ],
+        "inputTrades": [
+          25,
+          50
+        ],
+        "hunger": [
+          14.17,
+          29.58
+        ],
+        "foodGini": [
+          0.37,
+          0.45
+        ],
+        "workshops": [
+          1,
+          3
+        ],
+        "suppliesCreated": [
+          0,
+          3
+        ],
+        "exits": [
+          0,
+          2
+        ],
+        "revelations": [
+          8,
+          28
+        ],
+        "advice": [
+          13,
+          54
+        ],
+        "conflicts": [
+          5,
+          51
+        ],
+        "pricePacts": [
+          2,
+          4
+        ],
+        "friendColorSimilarity": [
+          0.17,
+          1
+        ],
+        "colorDiversity": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Food shortage",
+      "mean": {
+        "hatTrades": 0.125,
+        "inputTrades": 16.125,
+        "hunger": 68,
+        "foodGini": 0.46249999999999997,
+        "workshops": 0.125,
+        "suppliesCreated": 0,
+        "exits": 0.875,
+        "revelations": 0,
+        "advice": 0,
+        "conflicts": 16.875,
+        "pricePacts": 1.25,
+        "friendColorSimilarity": 0.845,
+        "colorDiversity": 1.25
+      },
+      "range": {
+        "hatTrades": [
+          0,
+          1
+        ],
+        "inputTrades": [
+          13,
+          19
+        ],
+        "hunger": [
+          64.75,
+          73.75
+        ],
+        "foodGini": [
+          0.31,
+          0.53
+        ],
+        "workshops": [
+          0,
+          1
+        ],
+        "suppliesCreated": [
+          0,
+          0
+        ],
+        "exits": [
+          0,
+          3
+        ],
+        "revelations": [
+          0,
+          0
+        ],
+        "advice": [
+          0,
+          0
+        ],
+        "conflicts": [
+          5,
+          34
+        ],
+        "pricePacts": [
+          1,
+          2
+        ],
+        "friendColorSimilarity": [
+          0.69,
+          1
+        ],
+        "colorDiversity": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "runs": [
+    {
+      "case": "Taste only",
+      "seed": 11,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 15.08,
+      "stress": 0,
+      "foodGini": 0.4,
+      "trades": 59,
+      "inputTrades": 28,
+      "hatTrades": 3,
+      "hatsMade": 14,
+      "hatOwners": 7,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.5,
+      "groups": 7,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 3,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 18,
+      "mediations": 6,
+      "breaches": 7,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 56,
+      "bytes": 301982
+    },
+    {
+      "case": "Taste only",
+      "seed": 42,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 21.08,
+      "stress": 3.74,
+      "foodGini": 0.4,
+      "trades": 61,
+      "inputTrades": 27,
+      "hatTrades": 1,
+      "hatsMade": 14,
+      "hatOwners": 6,
+      "colorDiversity": 1,
+      "friendColorSimilarity": 1,
+      "groups": 7,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 3,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 53,
+      "mediations": 20,
+      "breaches": 16,
+      "exits": 2,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 47,
+      "bytes": 318227
+    },
+    {
+      "case": "Taste only",
+      "seed": 73,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 21.83,
+      "stress": 0,
+      "foodGini": 0.4,
+      "trades": 84,
+      "inputTrades": 35,
+      "hatTrades": 4,
+      "hatsMade": 20,
+      "hatOwners": 7,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.6,
+      "groups": 7,
+      "circles": 2,
+      "workshops": 3,
+      "pricePacts": 2,
+      "suppliesCreated": 3,
+      "supplyAgreements": 0,
+      "conflicts": 10,
+      "mediations": 32,
+      "breaches": 14,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 72,
+      "bytes": 319962
+    },
+    {
+      "case": "Taste only",
+      "seed": 104,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 17.58,
+      "stress": 4.22,
+      "foodGini": 0.35,
+      "trades": 72,
+      "inputTrades": 32,
+      "hatTrades": 2,
+      "hatsMade": 15,
+      "hatOwners": 7,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.51,
+      "groups": 8,
+      "circles": 3,
+      "workshops": 2,
+      "pricePacts": 3,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 4,
+      "mediations": 29,
+      "breaches": 20,
+      "exits": 1,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 69,
+      "bytes": 313988
+    },
+    {
+      "case": "Taste only",
+      "seed": 135,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 15.83,
+      "stress": 1.16,
+      "foodGini": 0.23,
+      "trades": 70,
+      "inputTrades": 28,
+      "hatTrades": 1,
+      "hatsMade": 15,
+      "hatOwners": 7,
+      "colorDiversity": 2,
+      "friendColorSimilarity": 0.57,
+      "groups": 6,
+      "circles": 2,
+      "workshops": 1,
+      "pricePacts": 3,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 18,
+      "mediations": 25,
+      "breaches": 7,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 82,
+      "bytes": 293562
+    },
+    {
+      "case": "Taste only",
+      "seed": 166,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 17.33,
+      "stress": 1.76,
+      "foodGini": 0.45,
+      "trades": 80,
+      "inputTrades": 43,
+      "hatTrades": 5,
+      "hatsMade": 21,
+      "hatOwners": 8,
+      "colorDiversity": 6,
+      "friendColorSimilarity": 0.46,
+      "groups": 6,
+      "circles": 4,
+      "workshops": 1,
+      "pricePacts": 1,
+      "suppliesCreated": 3,
+      "supplyAgreements": 0,
+      "conflicts": 12,
+      "mediations": 45,
+      "breaches": 14,
+      "exits": 2,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 61,
+      "bytes": 323695
+    },
+    {
+      "case": "Taste only",
+      "seed": 197,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 23.5,
+      "stress": 0,
+      "foodGini": 0.52,
+      "trades": 68,
+      "inputTrades": 32,
+      "hatTrades": 4,
+      "hatsMade": 17,
+      "hatOwners": 8,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.15,
+      "groups": 7,
+      "circles": 3,
+      "workshops": 2,
+      "pricePacts": 2,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 11,
+      "mediations": 26,
+      "breaches": 12,
+      "exits": 1,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 63,
+      "bytes": 294350
+    },
+    {
+      "case": "Taste only",
+      "seed": 228,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 17.67,
+      "stress": 0.44,
+      "foodGini": 0.41,
+      "trades": 72,
+      "inputTrades": 34,
+      "hatTrades": 3,
+      "hatsMade": 17,
+      "hatOwners": 7,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.6,
+      "groups": 8,
+      "circles": 4,
+      "workshops": 2,
+      "pricePacts": 2,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 5,
+      "mediations": 17,
+      "breaches": 16,
+      "exits": 2,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 70,
+      "bytes": 311213
+    },
+    {
+      "case": "Social fashion",
+      "seed": 11,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 19.25,
+      "stress": 0,
+      "foodGini": 0.43,
+      "trades": 73,
+      "inputTrades": 35,
+      "hatTrades": 7,
+      "hatsMade": 18,
+      "hatOwners": 10,
+      "colorDiversity": 6,
+      "friendColorSimilarity": 0.5,
+      "groups": 7,
+      "circles": 2,
+      "workshops": 2,
+      "pricePacts": 3,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 25,
+      "mediations": 5,
+      "breaches": 7,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 61,
+      "bytes": 313271
+    },
+    {
+      "case": "Social fashion",
+      "seed": 42,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 23.67,
+      "stress": 2.97,
+      "foodGini": 0.3,
+      "trades": 85,
+      "inputTrades": 38,
+      "hatTrades": 4,
+      "hatsMade": 21,
+      "hatOwners": 10,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.58,
+      "groups": 8,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 4,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 43,
+      "mediations": 43,
+      "breaches": 21,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 60,
+      "bytes": 332692
+    },
+    {
+      "case": "Social fashion",
+      "seed": 73,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 14.33,
+      "stress": 1.25,
+      "foodGini": 0.4,
+      "trades": 83,
+      "inputTrades": 38,
+      "hatTrades": 6,
+      "hatsMade": 19,
+      "hatOwners": 8,
+      "colorDiversity": 5,
+      "friendColorSimilarity": 0.52,
+      "groups": 8,
+      "circles": 4,
+      "workshops": 1,
+      "pricePacts": 3,
+      "suppliesCreated": 4,
+      "supplyAgreements": 0,
+      "conflicts": 19,
+      "mediations": 37,
+      "breaches": 18,
+      "exits": 2,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 56,
+      "bytes": 326000
+    },
+    {
+      "case": "Social fashion",
+      "seed": 104,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 21.67,
+      "stress": 7.27,
+      "foodGini": 0.34,
+      "trades": 64,
+      "inputTrades": 28,
+      "hatTrades": 3,
+      "hatsMade": 16,
+      "hatOwners": 5,
+      "colorDiversity": 2,
+      "friendColorSimilarity": null,
+      "groups": 9,
+      "circles": 3,
+      "workshops": 2,
+      "pricePacts": 4,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 9,
+      "mediations": 29,
+      "breaches": 16,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 50,
+      "bytes": 315660
+    },
+    {
+      "case": "Social fashion",
+      "seed": 135,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 30.33,
+      "stress": 3.01,
+      "foodGini": 0.41,
+      "trades": 92,
+      "inputTrades": 46,
+      "hatTrades": 5,
+      "hatsMade": 22,
+      "hatOwners": 11,
+      "colorDiversity": 2,
+      "friendColorSimilarity": 0.63,
+      "groups": 6,
+      "circles": 2,
+      "workshops": 1,
+      "pricePacts": 3,
+      "suppliesCreated": 5,
+      "supplyAgreements": 0,
+      "conflicts": 18,
+      "mediations": 26,
+      "breaches": 14,
+      "exits": 2,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 108,
+      "bytes": 304289
+    },
+    {
+      "case": "Social fashion",
+      "seed": 166,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 20.75,
+      "stress": 1.3,
+      "foodGini": 0.47,
+      "trades": 91,
+      "inputTrades": 44,
+      "hatTrades": 6,
+      "hatsMade": 22,
+      "hatOwners": 10,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.6,
+      "groups": 7,
+      "circles": 2,
+      "workshops": 2,
+      "pricePacts": 3,
+      "suppliesCreated": 3,
+      "supplyAgreements": 0,
+      "conflicts": 21,
+      "mediations": 41,
+      "breaches": 21,
+      "exits": 4,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 87,
+      "bytes": 321963
+    },
+    {
+      "case": "Social fashion",
+      "seed": 197,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 24.42,
+      "stress": 3.67,
+      "foodGini": 0.36,
+      "trades": 67,
+      "inputTrades": 33,
+      "hatTrades": 4,
+      "hatsMade": 16,
+      "hatOwners": 8,
+      "colorDiversity": 1,
+      "friendColorSimilarity": 1,
+      "groups": 5,
+      "circles": 3,
+      "workshops": 0,
+      "pricePacts": 2,
+      "suppliesCreated": 3,
+      "supplyAgreements": 0,
+      "conflicts": 8,
+      "mediations": 36,
+      "breaches": 16,
+      "exits": 2,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 78,
+      "bytes": 293613
+    },
+    {
+      "case": "Social fashion",
+      "seed": 228,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 20.83,
+      "stress": 0.36,
+      "foodGini": 0.36,
+      "trades": 81,
+      "inputTrades": 37,
+      "hatTrades": 5,
+      "hatsMade": 18,
+      "hatOwners": 9,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.54,
+      "groups": 8,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 4,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 5,
+      "mediations": 18,
+      "breaches": 13,
+      "exits": 3,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 63,
+      "bytes": 315507
+    },
+    {
+      "case": "No groups",
+      "seed": 11,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 22.42,
+      "stress": 0.01,
+      "foodGini": 0.37,
+      "trades": 72,
+      "inputTrades": 38,
+      "hatTrades": 5,
+      "hatsMade": 22,
+      "hatOwners": 8,
+      "colorDiversity": 5,
+      "friendColorSimilarity": 0.44,
+      "groups": 0,
+      "circles": 0,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 19,
+      "mediations": 10,
+      "breaches": 12,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 78,
+      "bytes": 298807
+    },
+    {
+      "case": "No groups",
+      "seed": 42,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 29.08,
+      "stress": 3.91,
+      "foodGini": 0.43,
+      "trades": 88,
+      "inputTrades": 42,
+      "hatTrades": 5,
+      "hatsMade": 24,
+      "hatOwners": 11,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.58,
+      "groups": 0,
+      "circles": 0,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 51,
+      "mediations": 37,
+      "breaches": 13,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 88,
+      "bytes": 321270
+    },
+    {
+      "case": "No groups",
+      "seed": 73,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 26.75,
+      "stress": 5.73,
+      "foodGini": 0.37,
+      "trades": 90,
+      "inputTrades": 36,
+      "hatTrades": 6,
+      "hatsMade": 20,
+      "hatOwners": 9,
+      "colorDiversity": 5,
+      "friendColorSimilarity": 0.36,
+      "groups": 0,
+      "circles": 0,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 18,
+      "mediations": 40,
+      "breaches": 8,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 69,
+      "bytes": 320582
+    },
+    {
+      "case": "No groups",
+      "seed": 104,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 19.08,
+      "stress": 2.13,
+      "foodGini": 0.34,
+      "trades": 86,
+      "inputTrades": 41,
+      "hatTrades": 4,
+      "hatsMade": 22,
+      "hatOwners": 7,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.16,
+      "groups": 0,
+      "circles": 0,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 3,
+      "supplyAgreements": 0,
+      "conflicts": 11,
+      "mediations": 53,
+      "breaches": 18,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 73,
+      "bytes": 316747
+    },
+    {
+      "case": "No groups",
+      "seed": 135,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 23.92,
+      "stress": 0.07,
+      "foodGini": 0.4,
+      "trades": 85,
+      "inputTrades": 38,
+      "hatTrades": 5,
+      "hatsMade": 18,
+      "hatOwners": 10,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.57,
+      "groups": 0,
+      "circles": 0,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 21,
+      "mediations": 14,
+      "breaches": 9,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 105,
+      "bytes": 290383
+    },
+    {
+      "case": "No groups",
+      "seed": 166,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 19.08,
+      "stress": 0.85,
+      "foodGini": 0.4,
+      "trades": 92,
+      "inputTrades": 47,
+      "hatTrades": 5,
+      "hatsMade": 21,
+      "hatOwners": 11,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.72,
+      "groups": 0,
+      "circles": 0,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 4,
+      "supplyAgreements": 0,
+      "conflicts": 16,
+      "mediations": 59,
+      "breaches": 18,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 85,
+      "bytes": 321680
+    },
+    {
+      "case": "No groups",
+      "seed": 197,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 22.25,
+      "stress": 6.73,
+      "foodGini": 0.37,
+      "trades": 70,
+      "inputTrades": 34,
+      "hatTrades": 4,
+      "hatsMade": 18,
+      "hatOwners": 8,
+      "colorDiversity": 2,
+      "friendColorSimilarity": 0.39,
+      "groups": 0,
+      "circles": 0,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 8,
+      "mediations": 44,
+      "breaches": 12,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 80,
+      "bytes": 293224
+    },
+    {
+      "case": "No groups",
+      "seed": 228,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 14.17,
+      "stress": 0,
+      "foodGini": 0.28,
+      "trades": 83,
+      "inputTrades": 37,
+      "hatTrades": 5,
+      "hatsMade": 17,
+      "hatOwners": 9,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.51,
+      "groups": 0,
+      "circles": 0,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 4,
+      "mediations": 23,
+      "breaches": 10,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 72,
+      "bytes": 308187
+    },
+    {
+      "case": "No price pacts",
+      "seed": 11,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 22.17,
+      "stress": 0.35,
+      "foodGini": 0.38,
+      "trades": 80,
+      "inputTrades": 42,
+      "hatTrades": 5,
+      "hatsMade": 22,
+      "hatOwners": 8,
+      "colorDiversity": 6,
+      "friendColorSimilarity": 0.23,
+      "groups": 5,
+      "circles": 2,
+      "workshops": 3,
+      "pricePacts": 0,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 15,
+      "mediations": 1,
+      "breaches": 3,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 66,
+      "bytes": 307444
+    },
+    {
+      "case": "No price pacts",
+      "seed": 42,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 22.25,
+      "stress": 2.2,
+      "foodGini": 0.38,
+      "trades": 99,
+      "inputTrades": 43,
+      "hatTrades": 5,
+      "hatsMade": 24,
+      "hatOwners": 11,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.61,
+      "groups": 4,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 0,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 51,
+      "mediations": 48,
+      "breaches": 17,
+      "exits": 2,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 66,
+      "bytes": 335903
+    },
+    {
+      "case": "No price pacts",
+      "seed": 73,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 22.92,
+      "stress": 2.58,
+      "foodGini": 0.39,
+      "trades": 93,
+      "inputTrades": 45,
+      "hatTrades": 5,
+      "hatsMade": 20,
+      "hatOwners": 9,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.44,
+      "groups": 4,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 0,
+      "suppliesCreated": 4,
+      "supplyAgreements": 0,
+      "conflicts": 18,
+      "mediations": 39,
+      "breaches": 17,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 74,
+      "bytes": 325204
+    },
+    {
+      "case": "No price pacts",
+      "seed": 104,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 25.5,
+      "stress": 1.03,
+      "foodGini": 0.38,
+      "trades": 79,
+      "inputTrades": 40,
+      "hatTrades": 5,
+      "hatsMade": 19,
+      "hatOwners": 7,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.58,
+      "groups": 5,
+      "circles": 2,
+      "workshops": 3,
+      "pricePacts": 0,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 7,
+      "mediations": 29,
+      "breaches": 13,
+      "exits": 1,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 59,
+      "bytes": 316992
+    },
+    {
+      "case": "No price pacts",
+      "seed": 135,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 22.58,
+      "stress": 0.27,
+      "foodGini": 0.39,
+      "trades": 98,
+      "inputTrades": 50,
+      "hatTrades": 5,
+      "hatsMade": 22,
+      "hatOwners": 11,
+      "colorDiversity": 4,
+      "friendColorSimilarity": 0.63,
+      "groups": 6,
+      "circles": 3,
+      "workshops": 3,
+      "pricePacts": 0,
+      "suppliesCreated": 4,
+      "supplyAgreements": 0,
+      "conflicts": 15,
+      "mediations": 20,
+      "breaches": 12,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 128,
+      "bytes": 302887
+    },
+    {
+      "case": "No price pacts",
+      "seed": 166,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 19,
+      "stress": 0.7,
+      "foodGini": 0.37,
+      "trades": 85,
+      "inputTrades": 41,
+      "hatTrades": 5,
+      "hatsMade": 19,
+      "hatOwners": 9,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.72,
+      "groups": 4,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 0,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 21,
+      "mediations": 39,
+      "breaches": 21,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 87,
+      "bytes": 321075
+    },
+    {
+      "case": "No price pacts",
+      "seed": 197,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 20.33,
+      "stress": 1.92,
+      "foodGini": 0.45,
+      "trades": 59,
+      "inputTrades": 29,
+      "hatTrades": 2,
+      "hatsMade": 14,
+      "hatOwners": 6,
+      "colorDiversity": 1,
+      "friendColorSimilarity": 1,
+      "groups": 1,
+      "circles": 1,
+      "workshops": 0,
+      "pricePacts": 0,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 8,
+      "mediations": 39,
+      "breaches": 12,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 78,
+      "bytes": 291455
+    },
+    {
+      "case": "No price pacts",
+      "seed": 228,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 15.58,
+      "stress": 0,
+      "foodGini": 0.46,
+      "trades": 82,
+      "inputTrades": 39,
+      "hatTrades": 5,
+      "hatsMade": 20,
+      "hatOwners": 8,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.7,
+      "groups": 5,
+      "circles": 3,
+      "workshops": 2,
+      "pricePacts": 0,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 5,
+      "mediations": 29,
+      "breaches": 17,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 63,
+      "bytes": 315367
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 11,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 20.17,
+      "stress": 0,
+      "foodGini": 0.45,
+      "trades": 75,
+      "inputTrades": 37,
+      "hatTrades": 6,
+      "hatsMade": 19,
+      "hatOwners": 8,
+      "colorDiversity": 6,
+      "friendColorSimilarity": 0.17,
+      "groups": 6,
+      "circles": 2,
+      "workshops": 1,
+      "pricePacts": 3,
+      "suppliesCreated": 1,
+      "supplyAgreements": 0,
+      "conflicts": 29,
+      "mediations": 16,
+      "breaches": 10,
+      "exits": 0,
+      "revelations": 8,
+      "advice": 13,
+      "blocked": 57,
+      "bytes": 312390
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 42,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 20.33,
+      "stress": 3.69,
+      "foodGini": 0.37,
+      "trades": 88,
+      "inputTrades": 50,
+      "hatTrades": 7,
+      "hatsMade": 25,
+      "hatOwners": 12,
+      "colorDiversity": 5,
+      "friendColorSimilarity": 0.49,
+      "groups": 6,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 2,
+      "suppliesCreated": 3,
+      "supplyAgreements": 0,
+      "conflicts": 51,
+      "mediations": 24,
+      "breaches": 12,
+      "exits": 2,
+      "revelations": 28,
+      "advice": 51,
+      "blocked": 70,
+      "bytes": 328677
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 73,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 14.17,
+      "stress": 7.42,
+      "foodGini": 0.44,
+      "trades": 61,
+      "inputTrades": 25,
+      "hatTrades": 4,
+      "hatsMade": 13,
+      "hatOwners": 6,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.59,
+      "groups": 10,
+      "circles": 3,
+      "workshops": 3,
+      "pricePacts": 4,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 15,
+      "mediations": 35,
+      "breaches": 12,
+      "exits": 1,
+      "revelations": 24,
+      "advice": 54,
+      "blocked": 77,
+      "bytes": 326565
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 104,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 17.42,
+      "stress": 5.63,
+      "foodGini": 0.43,
+      "trades": 72,
+      "inputTrades": 29,
+      "hatTrades": 1,
+      "hatsMade": 15,
+      "hatOwners": 5,
+      "colorDiversity": 4,
+      "friendColorSimilarity": null,
+      "groups": 8,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 4,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 8,
+      "mediations": 31,
+      "breaches": 9,
+      "exits": 1,
+      "revelations": 16,
+      "advice": 32,
+      "blocked": 65,
+      "bytes": 316420
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 135,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 26.25,
+      "stress": 3.27,
+      "foodGini": 0.43,
+      "trades": 74,
+      "inputTrades": 32,
+      "hatTrades": 4,
+      "hatsMade": 15,
+      "hatOwners": 9,
+      "colorDiversity": 5,
+      "friendColorSimilarity": 0.86,
+      "groups": 7,
+      "circles": 3,
+      "workshops": 2,
+      "pricePacts": 2,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 17,
+      "mediations": 13,
+      "breaches": 4,
+      "exits": 0,
+      "revelations": 12,
+      "advice": 17,
+      "blocked": 70,
+      "bytes": 296124
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 166,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 16,
+      "stress": 0.42,
+      "foodGini": 0.4,
+      "trades": 86,
+      "inputTrades": 39,
+      "hatTrades": 5,
+      "hatsMade": 19,
+      "hatOwners": 9,
+      "colorDiversity": 3,
+      "friendColorSimilarity": 0.69,
+      "groups": 8,
+      "circles": 3,
+      "workshops": 2,
+      "pricePacts": 3,
+      "suppliesCreated": 3,
+      "supplyAgreements": 0,
+      "conflicts": 16,
+      "mediations": 36,
+      "breaches": 19,
+      "exits": 2,
+      "revelations": 14,
+      "advice": 35,
+      "blocked": 86,
+      "bytes": 324187
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 197,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 29.58,
+      "stress": 4.94,
+      "foodGini": 0.41,
+      "trades": 57,
+      "inputTrades": 27,
+      "hatTrades": 2,
+      "hatsMade": 13,
+      "hatOwners": 5,
+      "colorDiversity": 1,
+      "friendColorSimilarity": 1,
+      "groups": 6,
+      "circles": 2,
+      "workshops": 1,
+      "pricePacts": 3,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 8,
+      "mediations": 28,
+      "breaches": 16,
+      "exits": 1,
+      "revelations": 19,
+      "advice": 33,
+      "blocked": 62,
+      "bytes": 295670
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 228,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 17.83,
+      "stress": 0,
+      "foodGini": 0.44,
+      "trades": 68,
+      "inputTrades": 29,
+      "hatTrades": 4,
+      "hatsMade": 16,
+      "hatOwners": 7,
+      "colorDiversity": 1,
+      "friendColorSimilarity": 1,
+      "groups": 8,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 4,
+      "suppliesCreated": 2,
+      "supplyAgreements": 0,
+      "conflicts": 5,
+      "mediations": 22,
+      "breaches": 8,
+      "exits": 0,
+      "revelations": 17,
+      "advice": 39,
+      "blocked": 56,
+      "bytes": 317123
+    },
+    {
+      "case": "Food shortage",
+      "seed": 11,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 64.75,
+      "stress": 20.35,
+      "foodGini": 0.53,
+      "trades": 35,
+      "inputTrades": 16,
+      "hatTrades": 0,
+      "hatsMade": 6,
+      "hatOwners": 2,
+      "colorDiversity": 1,
+      "friendColorSimilarity": null,
+      "groups": 4,
+      "circles": 3,
+      "workshops": 0,
+      "pricePacts": 1,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 22,
+      "mediations": 21,
+      "breaches": 0,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 54,
+      "bytes": 294585
+    },
+    {
+      "case": "Food shortage",
+      "seed": 42,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 65.42,
+      "stress": 18.29,
+      "foodGini": 0.44,
+      "trades": 33,
+      "inputTrades": 13,
+      "hatTrades": 0,
+      "hatsMade": 5,
+      "hatOwners": 4,
+      "colorDiversity": 1,
+      "friendColorSimilarity": null,
+      "groups": 4,
+      "circles": 3,
+      "workshops": 0,
+      "pricePacts": 1,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 34,
+      "mediations": 56,
+      "breaches": 3,
+      "exits": 3,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 27,
+      "bytes": 305164
+    },
+    {
+      "case": "Food shortage",
+      "seed": 73,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 66.67,
+      "stress": 14.96,
+      "foodGini": 0.53,
+      "trades": 44,
+      "inputTrades": 17,
+      "hatTrades": 0,
+      "hatsMade": 7,
+      "hatOwners": 3,
+      "colorDiversity": 2,
+      "friendColorSimilarity": null,
+      "groups": 6,
+      "circles": 3,
+      "workshops": 1,
+      "pricePacts": 2,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 12,
+      "mediations": 64,
+      "breaches": 1,
+      "exits": 1,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 50,
+      "bytes": 303590
+    },
+    {
+      "case": "Food shortage",
+      "seed": 104,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 68.75,
+      "stress": 32.41,
+      "foodGini": 0.49,
+      "trades": 36,
+      "inputTrades": 15,
+      "hatTrades": 0,
+      "hatsMade": 6,
+      "hatOwners": 2,
+      "colorDiversity": 1,
+      "friendColorSimilarity": null,
+      "groups": 4,
+      "circles": 3,
+      "workshops": 0,
+      "pricePacts": 1,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 12,
+      "mediations": 21,
+      "breaches": 2,
+      "exits": 1,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 36,
+      "bytes": 293191
+    },
+    {
+      "case": "Food shortage",
+      "seed": 135,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 73.75,
+      "stress": 14.35,
+      "foodGini": 0.31,
+      "trades": 38,
+      "inputTrades": 16,
+      "hatTrades": 0,
+      "hatsMade": 6,
+      "hatOwners": 3,
+      "colorDiversity": 1,
+      "friendColorSimilarity": null,
+      "groups": 3,
+      "circles": 2,
+      "workshops": 0,
+      "pricePacts": 1,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 16,
+      "mediations": 14,
+      "breaches": 0,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 44,
+      "bytes": 273186
+    },
+    {
+      "case": "Food shortage",
+      "seed": 166,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 66.58,
+      "stress": 25.78,
+      "foodGini": 0.45,
+      "trades": 38,
+      "inputTrades": 19,
+      "hatTrades": 1,
+      "hatsMade": 9,
+      "hatOwners": 5,
+      "colorDiversity": 2,
+      "friendColorSimilarity": 0.69,
+      "groups": 4,
+      "circles": 3,
+      "workshops": 0,
+      "pricePacts": 1,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 21,
+      "mediations": 38,
+      "breaches": 3,
+      "exits": 1,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 58,
+      "bytes": 294480
+    },
+    {
+      "case": "Food shortage",
+      "seed": 197,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 68.08,
+      "stress": 16.89,
+      "foodGini": 0.51,
+      "trades": 32,
+      "inputTrades": 16,
+      "hatTrades": 0,
+      "hatsMade": 6,
+      "hatOwners": 3,
+      "colorDiversity": 1,
+      "friendColorSimilarity": null,
+      "groups": 4,
+      "circles": 3,
+      "workshops": 0,
+      "pricePacts": 1,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 13,
+      "mediations": 44,
+      "breaches": 0,
+      "exits": 1,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 37,
+      "bytes": 279290
+    },
+    {
+      "case": "Food shortage",
+      "seed": 228,
+      "minute": 1440,
+      "population": 12,
+      "hunger": 70,
+      "stress": 19.08,
+      "foodGini": 0.44,
+      "trades": 40,
+      "inputTrades": 17,
+      "hatTrades": 0,
+      "hatsMade": 6,
+      "hatOwners": 3,
+      "colorDiversity": 1,
+      "friendColorSimilarity": 1,
+      "groups": 4,
+      "circles": 2,
+      "workshops": 0,
+      "pricePacts": 2,
+      "suppliesCreated": 0,
+      "supplyAgreements": 0,
+      "conflicts": 5,
+      "mediations": 38,
+      "breaches": 1,
+      "exits": 0,
+      "revelations": 0,
+      "advice": 0,
+      "blocked": 49,
+      "bytes": 296451
+    }
+  ],
+  "stories": [
+    {
+      "case": "Taste only",
+      "seed": 11,
+      "events": [
+        {
+          "id": "e7",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a8",
+            "a2"
+          ],
+          "text": "Otto bought pigment from Alice for 0.66 food.",
+          "contract": "c5"
+        },
+        {
+          "id": "e11",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a2"
+          ],
+          "text": "Pip bought pigment from Alice for 0.72 food.",
+          "contract": "c9"
+        },
+        {
+          "id": "e16",
+          "time": 11,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a4"
+          ],
+          "text": "Bob bought fibre from Fern for 0.44 food.",
+          "contract": "c14"
+        },
+        {
+          "id": "e19",
+          "time": 13,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a7"
+          ],
+          "text": "Bob bought fibre from Ivy for 0.44 food.",
+          "contract": "c17"
+        },
+        {
+          "id": "e33",
+          "time": 26,
+          "type": "trade",
+          "actors": [
+            "a6",
+            "a4"
+          ],
+          "text": "Bram bought cloth from Fern for 3.03 food.",
+          "contract": "c31"
+        },
+        {
+          "id": "e38",
+          "time": 29,
+          "type": "trade",
+          "actors": [
+            "a0",
+            "a7"
+          ],
+          "text": "Joe bought cloth from Ivy for 3.02 food.",
+          "contract": "c36"
+        },
+        {
+          "id": "e43",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a5"
+          ],
+          "text": "Pip bought pigment from Nell for 0.7 food.",
+          "contract": "c41"
+        },
+        {
+          "id": "e46",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a3",
+            "a10"
+          ],
+          "text": "Moss bought cloth from Kit for 3.01 food.",
+          "contract": "c44"
+        },
+        {
+          "id": "e69",
+          "time": 40,
+          "type": "group",
+          "actors": [
+            "a1",
+            "a4"
+          ],
+          "text": "Bob, Fern formed a price-pact.",
+          "group": "g68"
+        },
+        {
+          "id": "e243",
+          "time": 119,
+          "type": "supply",
+          "actors": [
+            "a6",
+            "a5"
+          ],
+          "text": "Bram and Nell agreed recurring dye deliveries at a fixed price.",
+          "contract": "c242"
+        },
+        {
+          "id": "e306",
+          "time": 160,
+          "type": "group",
+          "actors": [
+            "a7",
+            "a10"
+          ],
+          "text": "Ivy, Kit formed a price-pact.",
+          "group": "g305"
+        },
+        {
+          "id": "e440",
+          "time": 259,
+          "type": "group",
+          "actors": [
+            "a11",
+            "a2",
+            "a5"
+          ],
+          "text": "Pip, Alice, Nell formed a workshop.",
+          "group": "g439"
+        },
+        {
+          "id": "e464",
+          "time": 280,
+          "type": "group",
+          "actors": [
+            "a2",
+            "a5"
+          ],
+          "text": "Alice, Nell formed a price-pact.",
+          "group": "g463"
+        },
+        {
+          "id": "e755",
+          "time": 520,
+          "type": "group",
+          "actors": [
+            "a0",
+            "a1",
+            "a5"
+          ],
+          "text": "Joe, Bob, Nell formed a circle.",
+          "group": "g754"
+        },
+        {
+          "id": "e1018",
+          "time": 762,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a7"
+          ],
+          "text": "Ivy proposed 1.79 food to settle c1017; both parties accepted.",
+          "contract": "c1017"
+        },
+        {
+          "id": "e1116",
+          "time": 846,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a10"
+          ],
+          "text": "Kit proposed 1.63 food to settle c1115; both parties accepted.",
+          "contract": "c1115"
+        },
+        {
+          "id": "e1123",
+          "time": 853,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a9"
+          ],
+          "text": "Reed proposed 1.75 food to settle c1122; both parties accepted.",
+          "contract": "c1122"
+        },
+        {
+          "id": "e1157",
+          "time": 880,
+          "type": "group",
+          "actors": [
+            "a10",
+            "a6",
+            "a7"
+          ],
+          "text": "Kit, Bram, Ivy formed a circle.",
+          "group": "g1156"
+        },
+        {
+          "id": "e1490",
+          "time": 1201,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a6",
+            "a10"
+          ],
+          "text": "Kit proposed 1.72 food to settle c1393; both parties accepted.",
+          "contract": "c1393"
+        },
+        {
+          "id": "e1518",
+          "time": 1227,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a9"
+          ],
+          "text": "Reed proposed 1.75 food to settle c1517; both parties accepted.",
+          "contract": "c1517"
+        },
+        {
+          "id": "e1556",
+          "time": 1259,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a7"
+          ],
+          "text": "Ivy proposed 1.79 food to settle c1555; both parties accepted.",
+          "contract": "c1555"
+        },
+        {
+          "id": "e1627",
+          "time": 1320,
+          "type": "group",
+          "actors": [
+            "a11",
+            "a2",
+            "a4"
+          ],
+          "text": "Pip, Alice, Fern formed a circle.",
+          "group": "g1626"
+        }
+      ]
+    },
+    {
+      "case": "Social fashion",
+      "seed": 11,
+      "events": [
+        {
+          "id": "e7",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a8",
+            "a2"
+          ],
+          "text": "Otto bought pigment from Alice for 0.66 food.",
+          "contract": "c5"
+        },
+        {
+          "id": "e11",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a2"
+          ],
+          "text": "Pip bought pigment from Alice for 0.72 food.",
+          "contract": "c9"
+        },
+        {
+          "id": "e16",
+          "time": 11,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a4"
+          ],
+          "text": "Bob bought fibre from Fern for 0.44 food.",
+          "contract": "c14"
+        },
+        {
+          "id": "e19",
+          "time": 13,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a7"
+          ],
+          "text": "Bob bought fibre from Ivy for 0.44 food.",
+          "contract": "c17"
+        },
+        {
+          "id": "e35",
+          "time": 29,
+          "type": "trade",
+          "actors": [
+            "a0",
+            "a4"
+          ],
+          "text": "Joe bought cloth from Fern for 3.02 food.",
+          "contract": "c33"
+        },
+        {
+          "id": "e41",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a5"
+          ],
+          "text": "Pip bought pigment from Nell for 0.7 food.",
+          "contract": "c39"
+        },
+        {
+          "id": "e44",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a3",
+            "a7"
+          ],
+          "text": "Moss bought cloth from Ivy for 3.01 food.",
+          "contract": "c42"
+        },
+        {
+          "id": "e47",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a6",
+            "a10"
+          ],
+          "text": "Bram bought cloth from Kit for 3.01 food.",
+          "contract": "c45"
+        },
+        {
+          "id": "e157",
+          "time": 80,
+          "type": "group",
+          "actors": [
+            "a1",
+            "a4"
+          ],
+          "text": "Bob, Fern formed a price-pact.",
+          "group": "g156"
+        },
+        {
+          "id": "e325",
+          "time": 160,
+          "type": "group",
+          "actors": [
+            "a7",
+            "a10"
+          ],
+          "text": "Ivy, Kit formed a price-pact.",
+          "group": "g324"
+        },
+        {
+          "id": "e328",
+          "time": 160,
+          "type": "group",
+          "actors": [
+            "a2",
+            "a5"
+          ],
+          "text": "Alice, Nell formed a price-pact.",
+          "group": "g327"
+        },
+        {
+          "id": "e498",
+          "time": 274,
+          "type": "supply",
+          "actors": [
+            "a6",
+            "a10"
+          ],
+          "text": "Bram and Kit agreed recurring cloth deliveries at a fixed price.",
+          "contract": "c497"
+        },
+        {
+          "id": "e531",
+          "time": 295,
+          "type": "group",
+          "actors": [
+            "a9",
+            "a1",
+            "a10"
+          ],
+          "text": "Reed, Bob, Kit formed a workshop.",
+          "group": "g530"
+        },
+        {
+          "id": "e607",
+          "time": 367,
+          "type": "group",
+          "actors": [
+            "a8",
+            "a2",
+            "a5"
+          ],
+          "text": "Otto, Alice, Nell formed a workshop.",
+          "group": "g606"
+        },
+        {
+          "id": "e933",
+          "time": 640,
+          "type": "group",
+          "actors": [
+            "a5",
+            "a0",
+            "a3"
+          ],
+          "text": "Nell, Joe, Moss formed a circle.",
+          "group": "g932"
+        },
+        {
+          "id": "e1465",
+          "time": 1116,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a7"
+          ],
+          "text": "Ivy proposed 1.79 food to settle c1464; both parties accepted.",
+          "contract": "c1464"
+        },
+        {
+          "id": "e1473",
+          "time": 1119,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a8",
+            "a0"
+          ],
+          "text": "Joe proposed 1.59 food to settle c1472; both parties accepted.",
+          "contract": "c1472"
+        },
+        {
+          "id": "e1476",
+          "time": 1120,
+          "type": "group",
+          "actors": [
+            "a10",
+            "a6",
+            "a7"
+          ],
+          "text": "Kit, Bram, Ivy formed a circle.",
+          "group": "g1475"
+        },
+        {
+          "id": "e1627",
+          "time": 1244,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a8",
+            "a11"
+          ],
+          "text": "Pip proposed 1.43 food to settle c1550; both parties accepted.",
+          "contract": "c1550"
+        },
+        {
+          "id": "e1704",
+          "time": 1304,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a9",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c1703; both parties accepted.",
+          "contract": "c1703"
+        },
+        {
+          "id": "e1706",
+          "time": 1305,
+          "type": "settlement",
+          "actors": [
+            "a6",
+            "a8",
+            "a1"
+          ],
+          "text": "Bob proposed 1.64 food to settle c1628; both parties accepted.",
+          "contract": "c1628"
+        }
+      ]
+    },
+    {
+      "case": "No groups",
+      "seed": 11,
+      "events": [
+        {
+          "id": "e7",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a8",
+            "a2"
+          ],
+          "text": "Otto bought pigment from Alice for 0.66 food.",
+          "contract": "c5"
+        },
+        {
+          "id": "e11",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a2"
+          ],
+          "text": "Pip bought pigment from Alice for 0.72 food.",
+          "contract": "c9"
+        },
+        {
+          "id": "e16",
+          "time": 11,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a4"
+          ],
+          "text": "Bob bought fibre from Fern for 0.44 food.",
+          "contract": "c14"
+        },
+        {
+          "id": "e19",
+          "time": 13,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a7"
+          ],
+          "text": "Bob bought fibre from Ivy for 0.44 food.",
+          "contract": "c17"
+        },
+        {
+          "id": "e35",
+          "time": 29,
+          "type": "trade",
+          "actors": [
+            "a0",
+            "a4"
+          ],
+          "text": "Joe bought cloth from Fern for 3.02 food.",
+          "contract": "c33"
+        },
+        {
+          "id": "e41",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a5"
+          ],
+          "text": "Pip bought pigment from Nell for 0.7 food.",
+          "contract": "c39"
+        },
+        {
+          "id": "e44",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a3",
+            "a7"
+          ],
+          "text": "Moss bought cloth from Ivy for 3.01 food.",
+          "contract": "c42"
+        },
+        {
+          "id": "e47",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a6",
+            "a10"
+          ],
+          "text": "Bram bought cloth from Kit for 3.01 food.",
+          "contract": "c45"
+        },
+        {
+          "id": "e892",
+          "time": 592,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a6",
+            "a7"
+          ],
+          "text": "Ivy proposed 1.73 food to settle c825; both parties accepted.",
+          "contract": "c825"
+        },
+        {
+          "id": "e979",
+          "time": 662,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a6"
+          ],
+          "text": "Bram proposed 1.66 food to settle c978; both parties accepted.",
+          "contract": "c978"
+        },
+        {
+          "id": "e1057",
+          "time": 728,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a7"
+          ],
+          "text": "Ivy proposed 1.79 food to settle c1056; both parties accepted.",
+          "contract": "c1056"
+        },
+        {
+          "id": "e1111",
+          "time": 773,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a3"
+          ],
+          "text": "Moss proposed 1.52 food to settle c1110; both parties accepted.",
+          "contract": "c1110"
+        },
+        {
+          "id": "e1177",
+          "time": 831,
+          "type": "settlement",
+          "actors": [
+            "a7",
+            "a5",
+            "a10"
+          ],
+          "text": "Kit proposed 1.72 food to settle c1102; both parties accepted.",
+          "contract": "c1102"
+        },
+        {
+          "id": "e1209",
+          "time": 859,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a2"
+          ],
+          "text": "Alice proposed 1.69 food to settle c1208; both parties accepted.",
+          "contract": "c1208"
+        },
+        {
+          "id": "e1218",
+          "time": 869,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c1215; both parties accepted.",
+          "contract": "c1215"
+        },
+        {
+          "id": "e1293",
+          "time": 943,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a5",
+            "a9"
+          ],
+          "text": "Reed proposed 1.4 food to settle c1233; both parties accepted.",
+          "contract": "c1233"
+        },
+        {
+          "id": "e1356",
+          "time": 1004,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a5",
+            "a11"
+          ],
+          "text": "Pip proposed 1.55 food to settle c1294; both parties accepted.",
+          "contract": "c1294"
+        },
+        {
+          "id": "e1612",
+          "time": 1232,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a7",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c1609; both parties accepted.",
+          "contract": "c1609"
+        }
+      ]
+    },
+    {
+      "case": "No price pacts",
+      "seed": 11,
+      "events": [
+        {
+          "id": "e7",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a8",
+            "a2"
+          ],
+          "text": "Otto bought pigment from Alice for 0.66 food.",
+          "contract": "c5"
+        },
+        {
+          "id": "e11",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a2"
+          ],
+          "text": "Pip bought pigment from Alice for 0.72 food.",
+          "contract": "c9"
+        },
+        {
+          "id": "e16",
+          "time": 11,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a4"
+          ],
+          "text": "Bob bought fibre from Fern for 0.44 food.",
+          "contract": "c14"
+        },
+        {
+          "id": "e19",
+          "time": 13,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a7"
+          ],
+          "text": "Bob bought fibre from Ivy for 0.44 food.",
+          "contract": "c17"
+        },
+        {
+          "id": "e35",
+          "time": 29,
+          "type": "trade",
+          "actors": [
+            "a0",
+            "a4"
+          ],
+          "text": "Joe bought cloth from Fern for 3.02 food.",
+          "contract": "c33"
+        },
+        {
+          "id": "e41",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a5"
+          ],
+          "text": "Pip bought pigment from Nell for 0.7 food.",
+          "contract": "c39"
+        },
+        {
+          "id": "e44",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a3",
+            "a7"
+          ],
+          "text": "Moss bought cloth from Ivy for 3.01 food.",
+          "contract": "c42"
+        },
+        {
+          "id": "e47",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a6",
+            "a10"
+          ],
+          "text": "Bram bought cloth from Kit for 3.01 food.",
+          "contract": "c45"
+        },
+        {
+          "id": "e542",
+          "time": 311,
+          "type": "group",
+          "actors": [
+            "a11",
+            "a4",
+            "a5"
+          ],
+          "text": "Pip, Fern, Nell formed a workshop.",
+          "group": "g541"
+        },
+        {
+          "id": "e552",
+          "time": 323,
+          "type": "group",
+          "actors": [
+            "a1",
+            "a8",
+            "a10"
+          ],
+          "text": "Bob, Otto, Kit formed a workshop.",
+          "group": "g551"
+        },
+        {
+          "id": "e703",
+          "time": 440,
+          "type": "group",
+          "actors": [
+            "a5",
+            "a2",
+            "a10"
+          ],
+          "text": "Nell, Alice, Kit formed a circle.",
+          "group": "g702"
+        },
+        {
+          "id": "e841",
+          "time": 560,
+          "type": "group",
+          "actors": [
+            "a1",
+            "a7",
+            "a9"
+          ],
+          "text": "Bob, Ivy, Reed formed a circle.",
+          "group": "g840"
+        },
+        {
+          "id": "e1283",
+          "time": 937,
+          "type": "group",
+          "actors": [
+            "a2",
+            "a0",
+            "a3"
+          ],
+          "text": "Alice, Joe, Moss formed a workshop.",
+          "group": "g1282"
+        },
+        {
+          "id": "e1444",
+          "time": 1079,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a11"
+          ],
+          "text": "Pip proposed 1.48 food to settle c1443; both parties accepted.",
+          "contract": "c1443"
+        }
+      ]
+    },
+    {
+      "case": "Hidden market insight",
+      "seed": 11,
+      "events": [
+        {
+          "id": "e7",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a8",
+            "a2"
+          ],
+          "text": "Otto bought pigment from Alice for 0.66 food.",
+          "contract": "c5"
+        },
+        {
+          "id": "e10",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a2"
+          ],
+          "text": "Pip bought pigment from Alice for 0.72 food.",
+          "contract": "c8"
+        },
+        {
+          "id": "e14",
+          "time": 11,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a7"
+          ],
+          "text": "Bob bought fibre from Ivy for 0.44 food.",
+          "contract": "c12"
+        },
+        {
+          "id": "e17",
+          "time": 13,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a10"
+          ],
+          "text": "Bob bought fibre from Kit for 0.44 food.",
+          "contract": "c15"
+        },
+        {
+          "id": "e21",
+          "time": 15,
+          "type": "insight",
+          "actors": [
+            "a4"
+          ],
+          "text": "Fern perceived unmet demand around #81674c; this is hidden present information, not foresight."
+        },
+        {
+          "id": "e28",
+          "time": 22,
+          "type": "trade",
+          "actors": [
+            "a10",
+            "a4"
+          ],
+          "text": "Kit bought fibre from Fern for 0.44 food.",
+          "contract": "c26"
+        },
+        {
+          "id": "e37",
+          "time": 29,
+          "type": "trade",
+          "actors": [
+            "a6",
+            "a10"
+          ],
+          "text": "Bram bought cloth from Kit for 3.02 food.",
+          "contract": "c35"
+        },
+        {
+          "id": "e41",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a6",
+            "a2"
+          ],
+          "text": "Bram bought dye from Alice for 2.51 food.",
+          "contract": "c39"
+        },
+        {
+          "id": "e47",
+          "time": 34,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a10"
+          ],
+          "text": "Bob bought fibre from Kit for 0.4 food.",
+          "contract": "c45"
+        },
+        {
+          "id": "e80",
+          "time": 45,
+          "type": "insight",
+          "actors": [
+            "a11"
+          ],
+          "text": "Pip perceived unmet demand around #81674c; this is hidden present information, not foresight."
+        },
+        {
+          "id": "e101",
+          "time": 54,
+          "type": "advice",
+          "actors": [
+            "a4",
+            "a1"
+          ],
+          "text": "Fern told Bob about possible demand for #81674c."
+        },
+        {
+          "id": "e162",
+          "time": 79,
+          "type": "advice",
+          "actors": [
+            "a4",
+            "a2"
+          ],
+          "text": "Fern told Alice about possible demand for #81674c."
+        },
+        {
+          "id": "e174",
+          "time": 80,
+          "type": "group",
+          "actors": [
+            "a1",
+            "a7"
+          ],
+          "text": "Bob, Ivy formed a price-pact.",
+          "group": "g173"
+        },
+        {
+          "id": "e196",
+          "time": 89,
+          "type": "advice",
+          "actors": [
+            "a11",
+            "a0"
+          ],
+          "text": "Pip told Joe about possible demand for #81674c."
+        },
+        {
+          "id": "e238",
+          "time": 106,
+          "type": "insight",
+          "actors": [
+            "a6"
+          ],
+          "text": "Bram perceived unmet demand around #424354; this is hidden present information, not foresight."
+        },
+        {
+          "id": "e256",
+          "time": 114,
+          "type": "supply",
+          "actors": [
+            "a6",
+            "a2"
+          ],
+          "text": "Bram and Alice agreed recurring dye deliveries at a fixed price.",
+          "contract": "c255"
+        },
+        {
+          "id": "e323",
+          "time": 154,
+          "type": "advice",
+          "actors": [
+            "a6",
+            "a5"
+          ],
+          "text": "Bram told Nell about possible demand for #424354."
+        },
+        {
+          "id": "e382",
+          "time": 200,
+          "type": "group",
+          "actors": [
+            "a1",
+            "a6"
+          ],
+          "text": "Bob, Bram formed a price-pact.",
+          "group": "g381"
+        },
+        {
+          "id": "e397",
+          "time": 211,
+          "type": "insight",
+          "actors": [
+            "a4"
+          ],
+          "text": "Fern perceived unmet demand around #ba5e96; this is hidden present information, not foresight."
+        },
+        {
+          "id": "e400",
+          "time": 212,
+          "type": "advice",
+          "actors": [
+            "a6",
+            "a1"
+          ],
+          "text": "Bram told Bob about possible demand for #424354."
+        },
+        {
+          "id": "e403",
+          "time": 212,
+          "type": "group",
+          "actors": [
+            "a1",
+            "a2",
+            "a7"
+          ],
+          "text": "Bob, Alice, Ivy formed a workshop.",
+          "group": "g402"
+        },
+        {
+          "id": "e426",
+          "time": 236,
+          "type": "insight",
+          "actors": [
+            "a2"
+          ],
+          "text": "Alice perceived unmet demand around #c7b64b; this is hidden present information, not foresight."
+        },
+        {
+          "id": "e435",
+          "time": 240,
+          "type": "group",
+          "actors": [
+            "a2",
+            "a5"
+          ],
+          "text": "Alice, Nell formed a price-pact.",
+          "group": "g434"
+        },
+        {
+          "id": "e446",
+          "time": 245,
+          "type": "advice",
+          "actors": [
+            "a2",
+            "a8"
+          ],
+          "text": "Alice told Otto about possible demand for #c7b64b."
+        },
+        {
+          "id": "e449",
+          "time": 246,
+          "type": "advice",
+          "actors": [
+            "a4",
+            "a10"
+          ],
+          "text": "Fern told Kit about possible demand for #ba5e96."
+        },
+        {
+          "id": "e506",
+          "time": 292,
+          "type": "advice",
+          "actors": [
+            "a2",
+            "a5"
+          ],
+          "text": "Alice told Nell about possible demand for #c7b64b."
+        },
+        {
+          "id": "e527",
+          "time": 308,
+          "type": "advice",
+          "actors": [
+            "a4",
+            "a5"
+          ],
+          "text": "Fern told Nell about possible demand for #ba5e96."
+        },
+        {
+          "id": "e533",
+          "time": 310,
+          "type": "advice",
+          "actors": [
+            "a2",
+            "a3"
+          ],
+          "text": "Alice told Moss about possible demand for #c7b64b."
+        },
+        {
+          "id": "e638",
+          "time": 409,
+          "type": "insight",
+          "actors": [
+            "a4"
+          ],
+          "text": "Fern perceived unmet demand around #ccccb0; this is hidden present information, not foresight."
+        },
+        {
+          "id": "e820",
+          "time": 560,
+          "type": "group",
+          "actors": [
+            "a5",
+            "a2",
+            "a3"
+          ],
+          "text": "Nell, Alice, Moss formed a circle.",
+          "group": "g819"
+        },
+        {
+          "id": "e902",
+          "time": 634,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a7"
+          ],
+          "text": "Ivy proposed 1.79 food to settle c901; both parties accepted.",
+          "contract": "c901"
+        },
+        {
+          "id": "e951",
+          "time": 673,
+          "type": "insight",
+          "actors": [
+            "a4"
+          ],
+          "text": "Fern perceived unmet demand around #ccccb0; this is hidden present information, not foresight."
+        },
+        {
+          "id": "e1031",
+          "time": 740,
+          "type": "advice",
+          "actors": [
+            "a4",
+            "a11"
+          ],
+          "text": "Fern told Pip about possible demand for #ccccb0."
+        },
+        {
+          "id": "e1188",
+          "time": 880,
+          "type": "group",
+          "actors": [
+            "a10",
+            "a6",
+            "a7"
+          ],
+          "text": "Kit, Bram, Ivy formed a circle.",
+          "group": "g1187"
+        },
+        {
+          "id": "e1268",
+          "time": 943,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a7",
+            "a3"
+          ],
+          "text": "Moss proposed 1.52 food to settle c1267; both parties accepted.",
+          "contract": "c1267"
+        },
+        {
+          "id": "e1420",
+          "time": 1084,
+          "type": "insight",
+          "actors": [
+            "a4"
+          ],
+          "text": "Fern perceived unmet demand around #be4545; this is hidden present information, not foresight."
+        },
+        {
+          "id": "e1463",
+          "time": 1128,
+          "type": "advice",
+          "actors": [
+            "a4",
+            "a5"
+          ],
+          "text": "Fern told Nell about possible demand for #be4545."
+        },
+        {
+          "id": "e1482",
+          "time": 1146,
+          "type": "settlement",
+          "actors": [
+            "a4",
+            "a7",
+            "a9"
+          ],
+          "text": "Reed proposed 1.81 food to settle c1414; both parties accepted.",
+          "contract": "c1414"
+        },
+        {
+          "id": "e1486",
+          "time": 1147,
+          "type": "advice",
+          "actors": [
+            "a4",
+            "a10"
+          ],
+          "text": "Fern told Kit about possible demand for #be4545."
+        },
+        {
+          "id": "e1494",
+          "time": 1153,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a6",
+            "a11"
+          ],
+          "text": "Pip proposed 1.55 food to settle c1430; both parties accepted.",
+          "contract": "c1430"
+        },
+        {
+          "id": "e1527",
+          "time": 1178,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c1526; both parties accepted.",
+          "contract": "c1526"
+        },
+        {
+          "id": "e1533",
+          "time": 1185,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a2"
+          ],
+          "text": "Alice proposed 1.69 food to settle c1532; both parties accepted.",
+          "contract": "c1532"
+        },
+        {
+          "id": "e1573",
+          "time": 1218,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a7",
+            "a0"
+          ],
+          "text": "Joe proposed 1.67 food to settle c1499; both parties accepted.",
+          "contract": "c1499"
+        },
+        {
+          "id": "e1589",
+          "time": 1232,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a7"
+          ],
+          "text": "Ivy proposed 1.79 food to settle c1588; both parties accepted.",
+          "contract": "c1588"
+        },
+        {
+          "id": "e1595",
+          "time": 1239,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c1594; both parties accepted.",
+          "contract": "c1594"
+        },
+        {
+          "id": "e1610",
+          "time": 1248,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c1609; both parties accepted.",
+          "contract": "c1609"
+        },
+        {
+          "id": "e1642",
+          "time": 1278,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a9"
+          ],
+          "text": "Reed proposed 1.75 food to settle c1641; both parties accepted.",
+          "contract": "c1641"
+        },
+        {
+          "id": "e1670",
+          "time": 1305,
+          "type": "settlement",
+          "actors": [
+            "a3",
+            "a5",
+            "a9"
+          ],
+          "text": "Reed proposed 1.84 food to settle c1583; both parties accepted.",
+          "contract": "c1583"
+        },
+        {
+          "id": "e1691",
+          "time": 1321,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a11"
+          ],
+          "text": "Pip proposed 1.48 food to settle c1690; both parties accepted.",
+          "contract": "c1690"
+        },
+        {
+          "id": "e1700",
+          "time": 1324,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a10"
+          ],
+          "text": "Kit proposed 1.63 food to settle c1697; both parties accepted.",
+          "contract": "c1697"
+        },
+        {
+          "id": "e1743",
+          "time": 1362,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a1"
+          ],
+          "text": "Bob proposed 1.56 food to settle c1742; both parties accepted.",
+          "contract": "c1742"
+        },
+        {
+          "id": "e1826",
+          "time": 1434,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a6",
+            "a0"
+          ],
+          "text": "Joe proposed 1.67 food to settle c1737; both parties accepted.",
+          "contract": "c1737"
+        }
+      ]
+    },
+    {
+      "case": "Food shortage",
+      "seed": 11,
+      "events": [
+        {
+          "id": "e7",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a8",
+            "a2"
+          ],
+          "text": "Otto bought pigment from Alice for 0.66 food.",
+          "contract": "c5"
+        },
+        {
+          "id": "e11",
+          "time": 7,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a2"
+          ],
+          "text": "Pip bought pigment from Alice for 0.72 food.",
+          "contract": "c9"
+        },
+        {
+          "id": "e16",
+          "time": 11,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a4"
+          ],
+          "text": "Bob bought fibre from Fern for 0.44 food.",
+          "contract": "c14"
+        },
+        {
+          "id": "e19",
+          "time": 13,
+          "type": "trade",
+          "actors": [
+            "a1",
+            "a7"
+          ],
+          "text": "Bob bought fibre from Ivy for 0.44 food.",
+          "contract": "c17"
+        },
+        {
+          "id": "e35",
+          "time": 29,
+          "type": "trade",
+          "actors": [
+            "a0",
+            "a4"
+          ],
+          "text": "Joe bought cloth from Fern for 3.02 food.",
+          "contract": "c33"
+        },
+        {
+          "id": "e41",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a11",
+            "a5"
+          ],
+          "text": "Pip bought pigment from Nell for 0.7 food.",
+          "contract": "c39"
+        },
+        {
+          "id": "e44",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a3",
+            "a7"
+          ],
+          "text": "Moss bought cloth from Ivy for 3.01 food.",
+          "contract": "c42"
+        },
+        {
+          "id": "e47",
+          "time": 31,
+          "type": "trade",
+          "actors": [
+            "a6",
+            "a10"
+          ],
+          "text": "Bram bought cloth from Kit for 3.01 food.",
+          "contract": "c45"
+        },
+        {
+          "id": "e157",
+          "time": 80,
+          "type": "group",
+          "actors": [
+            "a1",
+            "a4"
+          ],
+          "text": "Bob, Fern formed a price-pact.",
+          "group": "g156"
+        },
+        {
+          "id": "e386",
+          "time": 318,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a7"
+          ],
+          "text": "Ivy proposed 1.79 food to settle c385; both parties accepted.",
+          "contract": "c385"
+        },
+        {
+          "id": "e392",
+          "time": 325,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c391; both parties accepted.",
+          "contract": "c391"
+        },
+        {
+          "id": "e413",
+          "time": 341,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a6",
+            "a9"
+          ],
+          "text": "Reed proposed 1.75 food to settle c408; both parties accepted.",
+          "contract": "c408"
+        },
+        {
+          "id": "e414",
+          "time": 341,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a10"
+          ],
+          "text": "Kit proposed 1.63 food to settle c410; both parties accepted.",
+          "contract": "c410"
+        },
+        {
+          "id": "e424",
+          "time": 348,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a6",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c423; both parties accepted.",
+          "contract": "c423"
+        },
+        {
+          "id": "e455",
+          "time": 381,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a6",
+            "a9"
+          ],
+          "text": "Reed proposed 1.75 food to settle c454; both parties accepted.",
+          "contract": "c454"
+        },
+        {
+          "id": "e480",
+          "time": 404,
+          "type": "settlement",
+          "actors": [
+            "a2",
+            "a7",
+            "a0"
+          ],
+          "text": "Joe proposed 1.59 food to settle c479; both parties accepted.",
+          "contract": "c479"
+        },
+        {
+          "id": "e527",
+          "time": 453,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a8",
+            "a5"
+          ],
+          "text": "Nell proposed 1.88 food to settle c524; both parties accepted.",
+          "contract": "c524"
+        },
+        {
+          "id": "e580",
+          "time": 513,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a4",
+            "a2"
+          ],
+          "text": "Alice proposed 1.69 food to settle c577; both parties accepted.",
+          "contract": "c577"
+        },
+        {
+          "id": "e703",
+          "time": 643,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a6",
+            "a4"
+          ],
+          "text": "Fern proposed 1.48 food to settle c702; both parties accepted.",
+          "contract": "c702"
+        },
+        {
+          "id": "e706",
+          "time": 645,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a8",
+            "a6"
+          ],
+          "text": "Bram proposed 1.66 food to settle c705; both parties accepted.",
+          "contract": "c705"
+        },
+        {
+          "id": "e773",
+          "time": 714,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a6",
+            "a3"
+          ],
+          "text": "Moss proposed 1.52 food to settle c772; both parties accepted.",
+          "contract": "c772"
+        },
+        {
+          "id": "e787",
+          "time": 727,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a4",
+            "a11"
+          ],
+          "text": "Pip proposed 1.48 food to settle c784; both parties accepted.",
+          "contract": "c784"
+        },
+        {
+          "id": "e788",
+          "time": 727,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a6",
+            "a1"
+          ],
+          "text": "Bob proposed 1.56 food to settle c786; both parties accepted.",
+          "contract": "c786"
+        },
+        {
+          "id": "e836",
+          "time": 765,
+          "type": "settlement",
+          "actors": [
+            "a0",
+            "a4",
+            "a8"
+          ],
+          "text": "Otto proposed 1.71 food to settle c835; both parties accepted.",
+          "contract": "c835"
+        },
+        {
+          "id": "e879",
+          "time": 800,
+          "type": "group",
+          "actors": [
+            "a11",
+            "a4",
+            "a5"
+          ],
+          "text": "Pip, Fern, Nell formed a circle.",
+          "group": "g878"
+        },
+        {
+          "id": "e1075",
+          "time": 1000,
+          "type": "group",
+          "actors": [
+            "a10",
+            "a6",
+            "a9"
+          ],
+          "text": "Kit, Bram, Reed formed a circle.",
+          "group": "g1074"
+        },
+        {
+          "id": "e1156",
+          "time": 1083,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a7",
+            "a2"
+          ],
+          "text": "Alice proposed 1.69 food to settle c1155; both parties accepted.",
+          "contract": "c1155"
+        },
+        {
+          "id": "e1170",
+          "time": 1093,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a6",
+            "a3"
+          ],
+          "text": "Moss proposed 1.52 food to settle c1169; both parties accepted.",
+          "contract": "c1169"
+        },
+        {
+          "id": "e1246",
+          "time": 1166,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a7",
+            "a2"
+          ],
+          "text": "Alice proposed 1.69 food to settle c1245; both parties accepted.",
+          "contract": "c1245"
+        },
+        {
+          "id": "e1322",
+          "time": 1240,
+          "type": "group",
+          "actors": [
+            "a0",
+            "a1",
+            "a2"
+          ],
+          "text": "Joe, Bob, Alice formed a circle.",
+          "group": "g1321"
+        },
+        {
+          "id": "e1487",
+          "time": 1394,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a6",
+            "a3"
+          ],
+          "text": "Moss proposed 1.52 food to settle c1483; both parties accepted.",
+          "contract": "c1483"
+        },
+        {
+          "id": "e1492",
+          "time": 1395,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a7",
+            "a0"
+          ],
+          "text": "Joe proposed 1.59 food to settle c1486; both parties accepted.",
+          "contract": "c1486"
+        },
+        {
+          "id": "e1497",
+          "time": 1398,
+          "type": "settlement",
+          "actors": [
+            "a1",
+            "a8",
+            "a3"
+          ],
+          "text": "Moss proposed 1.52 food to settle c1491; both parties accepted.",
+          "contract": "c1491"
+        }
+      ]
+    }
+  ]
+}
