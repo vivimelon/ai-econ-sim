@@ -1,0 +1,8 @@
+node_modules/
+venv/
+.venv/
+.openai/
+.env
+.env.*
+!.env.example
+*.log

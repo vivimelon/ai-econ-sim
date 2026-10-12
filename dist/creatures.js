@@ -1,0 +1,39 @@
+/* Exact retained reference artwork. Runtime cutouts preserve enclosed whites and
+   source proportions; motion frames come from the approved goblin study. */
+(()=>{
+const names=['Goblin','Amphibian','Squirrel','Hopper','Pixel alien'];
+const actions=['Rest pose','Idle','Walk','Sit / rest','Gather','Carry','Offer','Receive','Work','Celebrate','Disagree'];
+const art=[],poses={},props={};let loaded=0;
+function cut(img,rect,landscape=false){const [sx,sy,w,h]=rect,c=document.createElement('canvas');c.width=w;c.height=h;const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,sx,sy,w,h,0,0,w,h);const d=ctx.getImageData(0,0,w,h),p=d.data,visited=new Uint8Array(w*h),queue=new Int32Array(w*h);let start=0,end=0;
+const background=i=>{const r=p[i*4],g=p[i*4+1],b=p[i*4+2],x=i%w,y=Math.floor(i/w);const wall=landscape==='house'&&x>24&&x<151&&y>65&&y<158;if(wall&&((r>218&&g>215&&b>193)||(b>r*1.1&&g>r*1.05)))return false;return p[i*4+3]<20||(r>218&&g>215&&b>193)||(landscape&&((g>r*1.08&&g>b*1.1)||(b>r*1.1&&g>r*1.05)))};
+const add=i=>{if(!visited[i]&&background(i)){visited[i]=1;queue[end++]=i}};
+for(let x=0;x<w;x++){add(x);add((h-1)*w+x)}for(let y=0;y<h;y++){add(y*w);add(y*w+w-1)}
+while(start<end){const i=queue[start++],x=i%w,y=Math.floor(i/w);p[i*4+3]=0;if(x)add(i-1);if(x<w-1)add(i+1);if(y)add(i-w);if(y<h-1)add(i+w)}
+// A reference sheet contains labels and adjacent studies; retain the connected body only.
+const components=new Int32Array(w*h);let component=0,largest=0,largestSize=0;
+for(let origin=0;origin<w*h;origin++){if(p[origin*4+3]<100||components[origin])continue;component++;start=0;end=1;queue[0]=origin;components[origin]=component;while(start<end){const i=queue[start++],x=i%w,y=Math.floor(i/w);for(const j of [x?i-1:-1,x<w-1?i+1:-1,y?i-w:-1,y<h-1?i+w:-1])if(j>=0&&!components[j]&&p[j*4+3]>=100){components[j]=component;queue[end++]=j}}if(end>largestSize){largest=component;largestSize=end}}
+for(let i=0;i<w*h;i++)if(components[i]!==largest)p[i*4+3]=0;
+ctx.putImageData(d,0,0);let x0=w,y0=h,x1=0,y1=0;for(let y=0;y<h;y++)for(let x=0;x<w;x++)if(p[(y*w+x)*4+3]>100){x0=Math.min(x,x0);x1=Math.max(x,x1);y0=Math.min(y,y0);y1=Math.max(y,y1)}
+const out=document.createElement('canvas');out.width=x1-x0+1;out.height=y1-y0+1;out.getContext('2d').drawImage(c,x0,y0,out.width,out.height,0,0,out.width,out.height);return out}
+function source(path,fn){const img=new Image();img.onload=()=>{fn(img);loaded++};img.src=path}
+source('assets/goblin.png',img=>art[0]=cut(img,[0,0,img.width,img.height]));
+source('assets/approved-lineup.png',img=>{art[1]=cut(img,[52,170,220,475]);art[2]=cut(img,[835,250,305,390]);art[3]=cut(img,[1245,855,90,140],true);art[4]=cut(img,[1225,350,205,280]);props.house=cut(img,[1338,824,170,172],'house')});
+source('assets/approved-goblin-motion.png',img=>{for(const [key,rect]of Object.entries({tpose:[85,76,310,270],idle:[770,78,190,270],blink:[1000,78,190,270],return:[1260,78,210,270],walk0:[55,425,280,250],walk1:[445,425,275,250],walk2:[865,425,220,250],walk3:[1190,425,290,250],wave:[180,735,225,240],sit:[610,765,305,210],offer:[1145,735,295,240]}))poses[key]=cut(img,rect)});
+function blit(c,img,x,y,height,angle=0,flip=false,squash=1){if(!img)return;const w=height*img.width/img.height;c.save();c.translate(x,y);c.rotate(angle);c.scale(flip?-1:1,squash);c.drawImage(img,-w/2,-height,w,height);c.restore()}
+function sprite(c,kind,x,y,height,action='idle',seconds=0,seed=0){if(!art[kind])return;const tick=Math.floor(seconds*8),beat=(tick+seed*5)%48,walking=action==='walk',resting=['rest','sit / rest'].includes(action),working=['craft','work','gather'].includes(action);c.imageSmoothingEnabled=kind!==4;
+c.save();c.fillStyle='rgba(35,58,25,.13)';c.beginPath();c.ellipse(x,y+1,height*.23,4,0,0,7);c.fill();c.restore();
+if(kind===0){let frame=art[0],h=height,angle=0;if(action==='rest pose')frame=poses.tpose||frame;else if(walking)frame=poses['walk'+[0,0,1,2,2,3,3,1][tick%8]]||frame;else if(resting){frame=poses.sit||frame;h=height*.68}else if(['offer','receive','carry','eat'].includes(action)){frame=poses.offer||frame;angle=beat<8?-.025:0}else if(working){frame=(tick%8<4?poses.offer:poses.wave)||frame;angle=tick%8<4?.035:0}else if(['celebrate','chat'].includes(action)){frame=poses.wave||frame;angle=beat<8?.025:0}else if(action==='disagree'){frame=poses.idle||frame;angle=[0,0,-.045,-.045,.045,.045,0,0][tick%8]}else{frame=(beat<32?poses.idle:beat<36?poses.blink:poses.return)||frame}
+blit(c,frame,x,y,h,angle);return}
+let angle=0,lift=0,squash=1;if(walking){if(kind===3){lift=[0,0,-4,-13,-22,-13,-4,0][tick%8];squash=tick%8<2?.88:1}else if(kind===4){lift=tick%4<2?-3:0}else angle=[-.035,-.035,0,0,.035,.035,0,0][tick%8]}else if(!resting){angle=beat<34?0:beat<39?-.035:beat<44?.025:0;squash=beat===35||beat===36?.985:1}if(working)angle=tick%8<4?.06:-.015;if(['offer','receive'].includes(action))angle=.035;if(resting)squash=.84;
+blit(c,art[kind],x,y+lift,height,angle,false,squash);
+}
+function house(c,x,y,height){blit(c,props.house,x,y,height)}
+let template=Number(sessionStorage.getItem('creature-template')||0),motion='Idle',started=performance.now();
+function mount(){if(!location.hash.includes('/maker'))return;const picks=document.querySelectorAll('[data-pick]');picks.forEach((b,i)=>{b.classList.toggle('active',template===i);b.querySelector('span')?.remove();const canvas=document.createElement('canvas');canvas.className='template-art';canvas.dataset.kind=i;b.prepend(canvas);b.onclick=()=>{template=i;sessionStorage.setItem('creature-template',i);picks.forEach((p,k)=>p.classList.toggle('active',i===k));updateCanvases()}});
+document.querySelectorAll('.drawingpaper img,.preview-creature img,.releasegrid>img').forEach(img=>{const canvas=document.createElement('canvas');canvas.className='template-art template-large';canvas.dataset.kind=template;canvas.setAttribute('aria-label',names[template]+' animation preview');img.replaceWith(canvas)});
+for(const strip of document.querySelectorAll('.motionstrip,.motion-list')){strip.innerHTML=actions.map(a=>`<button class="button ${a===motion?'primary':''}" data-art-motion="${a}">${a}</button>`).join('');strip.querySelectorAll('button').forEach(b=>b.onclick=()=>{motion=b.dataset.artMotion;started=performance.now();strip.querySelectorAll('button').forEach(x=>x.classList.toggle('primary',x===b))})}
+document.querySelectorAll('.paper-tag').forEach(p=>p.textContent=names[template]+' · artwork preview');document.querySelectorAll('.small-copy,.sample').forEach(p=>{if(p.textContent.includes('Animations will be reviewed'))p.textContent='Original approved art. Goblin motion uses the retained pose study; other bodies currently have simple movement previews.';if(p.textContent.includes('Static animation selector'))p.textContent='Live pose preview. Joint editing is not connected yet.'});updateCanvases()}
+function updateCanvases(){document.querySelectorAll('.template-large').forEach(c=>c.dataset.kind=template);const rig=document.querySelector('.rig');if(rig)rig.style.display='none'}
+function animate(now){document.querySelectorAll('canvas.template-art').forEach(canvas=>{const rect=canvas.getBoundingClientRect();if(rect.width===0||rect.bottom<0||rect.top>innerHeight)return;canvas.width=Math.round(rect.width*2);canvas.height=Math.round(rect.height*2);const c=canvas.getContext('2d');c.scale(2,2);const kind=Number(canvas.dataset.kind),still=canvas.closest('.body-pick')||canvas.closest('.drawingpaper');const image=art[kind],height=image?Math.min(rect.height-20,(rect.width-16)*image.height/image.width):rect.height-20;sprite(c,kind,rect.width/2,rect.height-10,height,still?'rest pose':motion.toLowerCase(),(now-started)/1000)});requestAnimationFrame(animate)}
+window.CreatureArt={sprite,house,names,actions,get ready(){return loaded===3}};window.addEventListener('hashchange',mount);mount();requestAnimationFrame(animate);
+})();
