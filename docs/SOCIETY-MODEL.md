@@ -19,7 +19,7 @@ On each simulated minute, an agent scores actions it can currently take. Need pr
 
 ## Labor-value benchmark
 
-`dist/labor-value.js` is the first economy foundation, and the **Labor values** tab makes it inspectable. It calculates a reference labor requirement for each good:
+`dist/labor-value.js` is the first economy foundation. The **Labor values** tab makes assumptions inspectable, and **Trade accounting** compares completed sales and commissions with the benchmark. It calculates a reference labor requirement for each good:
 
 ```text
 reference labor per unit = (usual direct production labor + reference labor in inputs) / output quantity
@@ -27,14 +27,14 @@ reference labor per unit = (usual direct production labor + reference labor in i
 
 Resource extraction has a starting reference labor requirement too. A productivity change lowers a recipe's standard time, and therefore the benchmark for goods made from it. An individual worker's inefficiency does not increase the good's reference value. `basketLaborCost` provides a stable labor-measured basket for comparing snapshots.
 
-This is a benchmark, not a forced transaction price or a spendable currency. Actual deals can differ because of scarcity, demand, bargaining, and property claims. Currency and inflation measurement come next: each currency's purchasing power will be measured against the same labor-valued basket using observed trade prices. That keeps reference labor, negotiated prices, and payment instruments separate.
+This is a benchmark, not a forced transaction price or a spendable currency. Actual deals can differ because of scarcity, demand, bargaining, and property claims. Current completed trades record the good, buyer, seller, food paid, benchmark labor and labor represented by that payment. Only food barter exists now; future currency purchasing power can be measured against the same labor-valued basket once other payment instruments exist. Reference labor, negotiated prices, and payment instruments stay separate.
 
 ## Next implementation stages
 
-1. **Economy accounting.** The reference labor model is visible and testable. Next, record trades as events with quantities and payment instruments; measure basket prices per currency only when there is enough trade evidence. Do not create a currency just to make the economy screen look complete.
+1. **Economy accounting.** Completed trades now record goods and food payment against the labor benchmark. Next, measure basket prices per currency only when there is enough trade evidence. Do not create a currency just to make the economy screen look complete.
 2. **Property and group evolution.** Add explicit access, use, exclusion, transfer, and fee rights to assets. Let groups recognize or dispute claims through contracts and decisions. Keep communal access as the seed-world rule.
 3. **Test and tune emergence.** Run matched scenarios with multiple seeds and report distributions for hunger, debt, concentration, group stability, and production. Keep outcomes explainable and avoid hard-coding named regimes such as capitalism or a cartel.
 
 ## Current limits
 
-The society lab and the website village are separate prototypes. The lab has no persistent server, account system, external agent protocol, or always-on background simulation. The labor benchmark is not yet wired into the society engine's trade decisions or interface. Resource labor values and recipe times are explicit starting assumptions to test, not facts discovered by the simulation. Political organizations beyond a small association, nested groups, private land claims, multiple currencies, inflation, and rent are not implemented yet.
+The society lab and the website village are separate prototypes. The lab has no persistent server, account system, external agent protocol, or always-on background simulation. The labor benchmark is not wired into trade decisions: it observes completed prices but does not force them. Resource labor values and recipe times are explicit starting assumptions to test, not facts discovered by the simulation. Political organizations beyond a small association, nested groups, private land claims, multiple currencies, inflation, and rent are not implemented yet.
